@@ -1,0 +1,208 @@
+#root{
+  margin: 0;
+  padding: 0;
+  background-color: #f1fcf2;
+}
+.upper {
+  /* background-image: linear-gradient(45deg, #285a31, #698461); */
+  background-color: #1e6b1e;
+  padding: 20px;
+  color: whitesmoke;
+  font-family:  'Playfair Display', serif;
+  /* font-size: 60px;
+  font-weight:500;  */
+  letter-spacing: 4px; 
+   box-shadow: 0 8px 15px rgba(42, 55, 26, 0.8);
+} 
+.head{
+  font-size: 60px;
+  font-weight:500;
+  
+}
+#heading {
+  margin-bottom: 0;
+  background-color: white;
+  z-index: 1100;
+}
+
+.foot{
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+}
+.survey-box {
+  width: 510px; /* 130% wider compared to 300px height */
+  height: 360px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #fff;
+  color:#26852c;
+   font-family:'Poppins', sans-serif;
+  font-size: x-large;
+}
+
+/* Hover effect */
+.survey-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  filter: brightness(1.1);
+}
+
+/* Background images */
+.bg-img-hostel {
+  background-image: url("/hostel.jpg"); /* replace with your hostel image */
+}
+
+.bg-img-residential {
+  background-image: url("/residential.jpg"); /* replace with your residential image */
+}
+
+.bg-img-campus {
+  background-image: url("/campus.jpg"); /* replace with your campus image */
+}
+
+.bg-img-department {
+  background-image: url("/department.jpg"); /* replace with your department image */
+}
+
+.bg-img-mrf {
+  background-image: url("/mrf.jpg");
+}
+
+.footer {
+  background-color: #175717;
+}
+.profile-container {
+  background-color: #eaeaea;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  transition: all 0.3s ease;
+  width: 320px;
+  height: 300px;
+}
+
+.profile-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bg-img-gautam {
+  background-image: url("data:image/png;base64,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");
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 240px;
+  border-radius: 50%;       /* makes it circular */
+  border: 3px solid #ffffff; /* adds a nice blue ring */
+  margin: 0 auto;           /* centers the circle */
+}
+
+.pic {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  color: #235326;
+  transition: color 0.3s ease;
+}
+
+.pic:hover {
+  color: #007bff;
+}
+
+.pic {
+  text-decoration: none;
+}
+.big-box{
+  background-image: linear-gradient(to bottom, rgb(246, 246, 237), #ffffff);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .surveyy{
+    font-family:  'Playfair Display', serif;
+  letter-spacing: 1px;
+  font-weight: 550;
+  text-transform: uppercase;
+  font-size: 45px;
+  padding-top: 30px;
+  color: #26852c;
+  }
+  .team{
+    font-family:  'Playfair Display', serif;
+  letter-spacing: 1px;
+  font-weight: 550;
+  text-transform: uppercase;
+  font-size: 45px;
+  padding-top: 30px;
+  color:#26852c;
+  }
+  .guide{
+     font-family:  'Playfair Display', serif;
+  letter-spacing: 1px;
+   font-size: 35px;
+   color:#26852c;
+  }
+  .big-boxx{
+      background-image: linear-gradient(to bottom, rgb(246, 246, 237), #ffffff);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+ 
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Navbar CSS starts here */
+/* ensure navbar sits above and style */
+.navbar {
+  position: fixed; /* still OK to keep here for fallback */
+  top: 0;
+  left: 0;
+  height: 70px; /* this can be any value; runtime code reads actual height */
+  width: 100%;
+  z-index: 1001;
+  background-color: rgb(255, 255, 248);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+/* nav list styling (your existing styles mostly okay) */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  list-style: none;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.navbar button {
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #26852c;
+  padding: 12px 6px;
+}
+
+/* underline animation */
+.navbar button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 3px;
+  background-color: #235326;
+  transition: width 0.25s ease;
+}
+.navbar button.active::after,
+.navbar button:hover::after {
+  width: 100%;
+}
