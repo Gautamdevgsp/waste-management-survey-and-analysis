@@ -61,7 +61,7 @@ function Team() {
       <div className="profile-container rounded text-center p-4">
     <div className="bg-img-gautam mx-auto"></div>
     <a className="pic d-block mt-1" href="http://localhost:5173/">
-      Indesh Attri
+      Lalit Kashyap
     </a>
   </div>
     </div>

@@ -7,12 +7,24 @@ function Survey() {
   // You can attach click handlers if you want navigation later
   const navigate = useNavigate();
 
-  const handleClick = () => {
+  const handleClickHos = () => {
     // your other logic (if any)
     navigate("/hostel"); // 👈 navigates to /another-page
      window.scrollTo(0, 0);
   };
-
+  
+  const handleClickDept = () => {
+    navigate("/dept");
+    window.scrollTo(0,0);
+  }
+  const handleClickCampus = () => {
+    navigate("/campus");
+    window.scrollTo(0,0);
+  }
+  const handleClickRes =() =>{
+    navigate("/res");
+    window.scrollTo(0,0);
+  }
   return (
     <>
       <div className="big-box me-5 ms-5 rounded">
@@ -26,7 +38,7 @@ function Survey() {
             <div className="col-12 col-sm-6 col-md-5 d-flex justify-content-center">
               <div
                 className="survey-box bg-img-hostel  d-flex align-items-end justify-content-center rounded me-5"
-                onClick={() => handleClick("Hostel")}
+                onClick={() => handleClickHos("Hostel")}
               >
                 <div className="bottom-text bg-white text-center py-2 w-100 ">
                   RESIDENTIAL
@@ -37,7 +49,7 @@ function Survey() {
             <div className="col-12 col-sm-6 col-md-5 d-flex justify-content-center">
               <div
                 className="survey-box bg-img-residential  d-flex align-items-end justify-content-center rounded"
-                onClick={() => handleClick("Residential")}
+                onClick={() => handleClickDept("Residential")}
               >
                 <div className="bottom-text bg-white text-center py-2 w-100 ">
                   DEPARTMENT
@@ -48,7 +60,7 @@ function Survey() {
             <div className="col-12 col-sm-6 col-md-5 d-flex justify-content-center">
               <div
                 className="survey-box bg-img-campus  d-flex align-items-end justify-content-center rounded mt-5 me-5 mb-4"
-                onClick={() => handleClick("Campus")}
+                onClick={() => handleClickCampus("Campus")}
               >
                 <div className="bottom-text bg-white text-center py-2 w-100 ">
                   CAMPUS
@@ -59,7 +71,7 @@ function Survey() {
             <div className="col-12 col-sm-6 col-md-5 d-flex justify-content-center">
               <div
                 className="survey-box bg-img-department  d-flex align-items-end justify-content-center rounded mt-5 mb-4"
-                onClick={() => handleClick("Department")}
+                onClick={() => handleClickRes("Department")}
               >
                 <div className="bottom-text bg-white text-center py-2 w-100 ">
                   HOSTEL
