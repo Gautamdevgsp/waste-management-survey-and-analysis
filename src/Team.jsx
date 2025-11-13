@@ -18,8 +18,11 @@ function Team() {
     {/* First Row - 3 Boxes */}
    <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
   <div className="profile-container rounded text-center p-4">
-    <div className="bg-img-gautam mx-auto"></div>
-    <a className="pic d-block mt-1" href="http://localhost:5173/">
+    <div class="circle">
+  <img src="DSC_1875.jpg" alt="profile" />
+</div>
+
+    <a className="pic d-block mt-1" href="https://www.linkedin.com/in/gurvansh-singh-6b1628384">
       Gurvansh Singh
     </a>
   </div>
@@ -28,8 +31,10 @@ function Team() {
 
     <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
       <div className="profile-container rounded text-center p-4">
-    <div className="bg-img-gautam mx-auto"></div>
-    <a className="pic d-block mt-1" href="http://localhost:5173/">
+    <div class="circle">
+  <img src="ekam.jpg" alt="profile" />
+</div>
+    <a className="pic d-block mt-1" href="https://www.linkedin.com/in/eakamjot-singh-b9272b382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
     Eakamjot Singh
     </a>
   </div>
@@ -37,8 +42,10 @@ function Team() {
 
     <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
       <div className="profile-container rounded text-center p-4">
-    <div className="bg-img-gautam mx-auto"></div>
-    <a className="pic d-block mt-1" href="http://localhost:5173/">
+    <div class="circle">
+  <img src="LI-removebg-preview.jpg" alt="profile" />
+</div>
+    <a className="pic d-block mt-1" href="https://www.linkedin.com/in/gautam-sharma-64583530b/">
       Gautam Sharma
     </a>
   </div>
@@ -59,7 +66,9 @@ function Team() {
     {/* Second Row - 2 Boxes */}
     <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center mt-5 mb-5">
       <div className="profile-container rounded text-center p-4">
-    <div className="bg-img-gautam mx-auto"></div>
+ <div class="circle">
+  <img src="" alt="profile" />
+</div>
     <a className="pic d-block mt-1" href="http://localhost:5173/">
       Lalit Kashyap
     </a>
@@ -68,7 +77,9 @@ function Team() {
 
     <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center mt-5 mb-5">
       <div className="profile-container rounded text-center p-4">
-    <div className="bg-img-gautam mx-auto"></div>
+   <div class="circle">
+  <img src="" alt="profile" />
+</div>
     <a className="pic d-block mt-1" href="http://localhost:5173/">
       Indesh Attri
     </a>

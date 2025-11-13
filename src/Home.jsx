@@ -46,37 +46,7 @@ function Home() {
       </div>
       </section>
 
-        {/* <section id='contact'>
-       <div
-        className="footer w-100 text-white d-flex flex-column justify-content-center align-items-center mt-5"
-        style={{ height: "300px" }}
-      >
-        <h2 className="mb-3">Team</h2>
-
-        <div className="text-center fs-5">
-          <p>Gurvansh Singh – 22303076</p>
-          <p>Eakamjot Singh – 22303062</p>
-          <p>Gautam Sharma – 22303066</p>
-        </div>
-
-        <hr className="w-75 my-3" />
-
-        <div className="text-center">
-          <p className="mb-1 fs-6">
-            © {new Date().getFullYear()} My Constitution. All rights reserved.
-          </p>
-          <p className="mb-0 fs-6">
-            Contact us:{" "}
-            <a
-              href="mailto:team@myconstitution.com"
-              className="text-white text-decoration-underline"
-            >
-              team@myconstitution.com
-            </a>
-          </p>
-        </div>
-      </div>
-      </section> */}
+ 
 
 <section id='contact'>
        <footer className="footer mt-5">
@@ -98,9 +68,9 @@ function Home() {
   <div className="footer-section resources">
     <h3>Resources</h3>
     <ul>
-      <li><a href="#">Documentation</a></li>
-      <li><a href="#">API Reference</a></li>
-      <li><a href="#">GitHub Repo</a></li>
+       <li><a href="https://github.com/Gautamdevgsp/waste-management-survey-and-analysis">GitHub Repo</a></li>
+      <li><a href="https://react.dev/">Documentation</a></li>
+      <li><a href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">Colab</a></li>
     </ul>
   </div>
 </footer>

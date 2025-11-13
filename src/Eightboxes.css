@@ -87,13 +87,18 @@
 /* make specific charts double width */
 .chart-box:nth-child(5),
 .chart-box:nth-child(6),
-.chart-box:nth-child(12) {
+.chart-box:nth-child(7),
+.chart-box:nth-child(13) {
   flex: 1 1 92%; /* take nearly full row width */
   max-width: 1230px;
   height: 518px; /* slightly taller */
 }
 
-.chart-box:nth-child(9){
+.chart-box:nth-child(8),
+.chart-box:nth-child(9),
+.chart-box:nth-child(10),
+.chart-box:nth-child(11),
+.chart-box:nth-child(12){
    flex: 1 1 92%; /* take nearly full row width */
   max-width: 1230px;
   height: 630px; /* slightly taller */
