@@ -46,7 +46,7 @@ function Home() {
       </div>
       </section>
 
-        <section id='contact'>
+        {/* <section id='contact'>
        <div
         className="footer w-100 text-white d-flex flex-column justify-content-center align-items-center mt-5"
         style={{ height: "300px" }}
@@ -76,8 +76,35 @@ function Home() {
           </p>
         </div>
       </div>
-      </section>
+      </section> */}
 
+<section id='contact'>
+       <footer className="footer mt-5">
+  <div className="footer-section about">
+    <h3>About</h3>
+    <p>
+      This website showcases interactive charts and visualizations created
+      using Colab and React. Our goal is to make data analysis more accessible
+      and engaging.
+    </p>
+  </div>
+
+  <div className="footer-section contact">
+    <h3>Contact</h3>
+    <p>Email: info@example.com</p>
+    <p>Phone: +91 98765 43210</p>
+  </div>
+
+  <div className="footer-section resources">
+    <h3>Resources</h3>
+    <ul>
+      <li><a href="#">Documentation</a></li>
+      <li><a href="#">API Reference</a></li>
+      <li><a href="#">GitHub Repo</a></li>
+    </ul>
+  </div>
+</footer>
+</section>
       
     </>
   )

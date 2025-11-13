@@ -1,0 +1,103 @@
+.boxes-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 40px;
+}
+
+.box {
+  width: 300px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d721f;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1024px) {
+  .boxes-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .boxes-container {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    width: 90%;
+  }
+}
+
+
+
+.charts-container {
+  display: flex;
+ justify-content: space-evenly;
+  align-items: center;
+  gap: 40px; /* space between the charts */
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap; /* makes it responsive on smaller screens */
+}
+
+.chart-box {
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  height: 400px;
+  border: none;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* make specific charts double width */
+.chart-box:nth-child(5),
+.chart-box:nth-child(6),
+.chart-box:nth-child(12) {
+  flex: 1 1 92%; /* take nearly full row width */
+  max-width: 1230px;
+  height: 518px; /* slightly taller */
+}
+
+.chart-box:nth-child(9){
+   flex: 1 1 92%; /* take nearly full row width */
+  max-width: 1230px;
+  height: 630px; /* slightly taller */
+}
+
+
+

@@ -10,6 +10,7 @@ function Survey() {
   const handleClick = () => {
     // your other logic (if any)
     navigate("/hostel"); // 👈 navigates to /another-page
+     window.scrollTo(0, 0);
   };
 
   return (

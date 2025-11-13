@@ -1,11 +1,11 @@
 #root{
   margin: 0;
   padding: 0;
-  background-color: #f1fcf2;
+  background-color: #e9f8ea;
 }
 .upper {
   /* background-image: linear-gradient(45deg, #285a31, #698461); */
-  background-color: #1e6b1e;
+  background-color: #1e741e;
   padding: 20px;
   color: whitesmoke;
   font-family:  'Playfair Display', serif;
@@ -72,9 +72,6 @@
   background-image: url("/mrf.jpg");
 }
 
-.footer {
-  background-color: #175717;
-}
 .profile-container {
   background-color: #eaeaea;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -122,7 +119,7 @@
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   .surveyy{
-    font-family:  'Playfair Display', serif;
+    font-family:  'Poppins', sans-serif;
   letter-spacing: 1px;
   font-weight: 550;
   text-transform: uppercase;
@@ -131,7 +128,7 @@
   color: #26852c;
   }
   .team{
-    font-family:  'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
   font-weight: 550;
   text-transform: uppercase;
@@ -205,4 +202,114 @@ body {
 .navbar button.active::after,
 .navbar button:hover::after {
   width: 100%;
+}
+
+/* navbar2 css starts here */
+.navbar2 {
+
+  top: 0;
+  left: 0;
+  height: 70px; /* this can be any value; runtime code reads actual height */
+  width: 100%;
+  z-index: 1001;
+  background-color: rgb(255, 255, 248);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+/* nav list styling (your existing styles mostly okay) */
+.navbar2 ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  margin: 0;
+  padding: 0 15px;
+  margin-left: 190px;
+}
+
+.navbar2 button {
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #26852c;
+  padding: 12px 6px;
+}
+
+/* underline animation */
+.navbar2 button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 3px;
+  background-color: #235326;
+  transition: width 0.25s ease;
+}
+.navbar2 button.active::after,
+.navbar2 button:hover::after {
+  width: 100%;
+}
+
+.footres{
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  margin-left: 100px;
+}
+.headres{
+  font-size: 45px;
+  font-weight:500;
+   margin-left: 100px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color:  #144c14;;
+  color: #f1f1f1;
+  padding: 40px 80px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px 20px;
+}
+
+.footer-section h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.footer-section p,
+.footer-section li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* center text in the middle section */
+.footer-section.contact {
+  text-align: center;
 }
