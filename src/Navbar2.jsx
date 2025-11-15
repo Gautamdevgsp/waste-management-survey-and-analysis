@@ -57,7 +57,7 @@ const Navbar = () => {
       <ul>
         <li>
           <button
-            className={activeSection === "home" || activeSection === "heading" ? "active" : ""}
+            className={activeSection === "home"  ? "active" : ""}
             onClick={() => navigate("/")}
           >
             Home
@@ -65,7 +65,7 @@ const Navbar = () => {
         </li>
         <li>
           <button
-            className={activeSection === "overview" ? "active" : ""}
+            className={activeSection === "overview" || activeSection === "heading"? "active" : ""}
             onClick={() => scrollToSection("overview")}
           >
             Overview

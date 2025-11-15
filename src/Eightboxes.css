@@ -104,5 +104,14 @@
   height: 630px; /* slightly taller */
 }
 
+.chart-box-wide{
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: none;
+  background-color: #f9f9f9;
+  flex: 1 1 92%; /* take nearly full row width */
+  max-width: 1230px;
+  height: 518px; /* slightly taller */
+}
 
 

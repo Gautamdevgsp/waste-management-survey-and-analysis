@@ -19,7 +19,7 @@ function Team() {
    <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
   <div className="profile-container rounded text-center p-4">
     <div class="circle">
-  <img src="DSC_1875.jpg" alt="profile" />
+  <img src="vansh.png" alt="profile" />
 </div>
 
     <a className="pic d-block mt-1" href="https://www.linkedin.com/in/gurvansh-singh-6b1628384">
@@ -67,22 +67,22 @@ function Team() {
     <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center mt-5 mb-5">
       <div className="profile-container rounded text-center p-4">
  <div class="circle">
-  <img src="" alt="profile" />
+  <img src="llt.jpg" alt="profile" />
 </div>
-    <a className="pic d-block mt-1" href="http://localhost:5173/">
+    <p className="pic d-block mt-1"  href="">
       Lalit Kashyap
-    </a>
+    </p>
   </div>
     </div>
 
     <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center mt-5 mb-5">
       <div className="profile-container rounded text-center p-4">
    <div class="circle">
-  <img src="" alt="profile" />
+  <img src="inds.jpg" alt="profile" />
 </div>
-    <a className="pic d-block mt-1" href="http://localhost:5173/">
+    <p className="pic d-block mt-1" href="">
       Indesh Attri
-    </a>
+    </p>
   </div>
     </div>
   </div>

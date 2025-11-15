@@ -120,36 +120,34 @@ function Hostel() {
       </section>
 
       <footer className="footer mt-5">
-        <div className="footer-section about">
-          <h3>About</h3>
-          <p>
-            This website showcases interactive charts and visualizations created
-            using Colab and React. Our goal is to make data analysis more
-            accessible and engaging.
-          </p>
-        </div>
+  <div className="footer-section about">
+    <h3>Submitted By</h3>
+  
+    <ul>
+      <li>Eakamjot Singh-22303062</li>
+      <li>Gautam Sharma-22303066</li>
+      <li>Gurvansh Singh-22303076</li>
+    </ul>
+  </div>
 
-        <div className="footer-section contact">
-          <h3>Contact</h3>
-          <p>Email: info@example.com</p>
-          <p>Phone: +91 98765 43210</p>
-        </div>
+  <div className="footer-section contact">
+    <h3>Contact</h3>
+    <p>Email: gautamsharma5144@gmail.com</p>
+    <p>Email: gurvanshsingh917@gmail.com</p>
+    <p>Email: eakamjot10@gmail.com</p>
+   
+  </div>
 
-        <div className="footer-section resources">
-          <h3>Resources</h3>
-          <ul>
-            <li>
-              <a href="#">Documentation</a>
-            </li>
-            <li>
-              <a href="#">API Reference</a>
-            </li>
-            <li>
-              <a href="#">GitHub Repo</a>
-            </li>
-          </ul>
-        </div>
-      </footer>
+  <div className="footer-section resources">
+    <h3>Resources</h3>
+    <ul>
+       <li><a href="https://github.com/Gautamdevgsp/waste-management-survey-and-analysis">GitHub Repo</a></li>
+      <li><a href="https://react.dev/">Documentation</a></li>
+      <li><a href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">Colab</a></li>
+    </ul>
+  </div>
+</footer>
+
     </div>
   );
 }

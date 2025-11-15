@@ -47,7 +47,8 @@ function Slide() {
             className='w-100 text-white' 
             style={{ 
               ...slideStyle, 
-              backgroundImage: `url('/why.jpg')` 
+              loading: "lazy",
+              backgroundImage: `url('/why.webp')` 
             }}
           >
             <div style={overlayStyle}></div> 
@@ -66,7 +67,8 @@ function Slide() {
             className='w-100 text-white' 
             style={{ 
               ...slideStyle, 
-              backgroundImage: `url('/howww.jpg')` 
+              loading: 'lazy',
+              backgroundImage: `url('/howww.webp')` 
             }}
           >
             <div style={overlayStyle}></div> 
@@ -85,7 +87,8 @@ function Slide() {
             className='w-100 text-white' 
             style={{ 
               ...slideStyle, 
-              backgroundImage: `url('/clg2.png')` 
+              loading: 'lazy',
+              backgroundImage: `url('/clg2.webp')` 
             }}
           >
             <div style={overlayStyle}></div> 
