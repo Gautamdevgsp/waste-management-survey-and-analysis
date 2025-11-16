@@ -173,7 +173,21 @@
   margin-left: 40px;
   margin-right: 40px;
 }
-
+.mrf-button{
+  background-color: #279627;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 50px;
+ transition: all 0.3s ease;
+  border: none;
+  width: auto;
+ box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.mrf-button:hover{
+    transition: all 0.3s ease;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
 .profile-container {
   background-color: #eaeaea;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -246,7 +260,7 @@
   color: #26852c;
 }
 .guide {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
   font-size: 35px;
   color: #26852c;
@@ -262,9 +276,8 @@ body {
 }
 
 /* Navbar CSS starts here */
-/* ensure navbar sits above and style */
+
 .navbar {
-  position: fixed; /* still OK to keep here for fallback */
   top: 0;
   left: 0;
   height: 70px; /* this can be any value; runtime code reads actual height */
@@ -274,6 +287,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
+   position: sticky; 
 }
 
 /* nav list styling (your existing styles mostly okay) */
@@ -314,54 +328,6 @@ body {
 }
 
 /* navbar2 css starts here */
-.navbar2 {
-  top: 0;
-  left: 0;
-  height: 70px; /* this can be any value; runtime code reads actual height */
-  width: 100%;
-  z-index: 1001;
-  background-color: rgb(255, 255, 248);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-}
-
-/* nav list styling (your existing styles mostly okay) */
-.navbar2 ul {
-  display: flex;
-  gap: 60px;
-  list-style: none;
-  margin: 0;
-  padding: 0 15px;
-  margin-left: 190px;
-}
-
-.navbar2 button {
-  position: relative;
-  background: none;
-  border: none;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  color: #26852c;
-  padding: 12px 6px;
-}
-
-/* underline animation */
-.navbar2 button::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 0%;
-  height: 3px;
-  background-color: #235326;
-  transition: width 0.25s ease;
-}
-.navbar2 button.active::after,
-.navbar2 button:hover::after {
-  width: 100%;
-}
 
 .footres {
   font-size: 20px;
@@ -420,4 +386,73 @@ body {
 /* center text in the middle section */
 .footer-section.contact {
   text-align: center;
+}
+/* container */
+.report-box {
+  height: 500px;               
+  padding: 24px;
+  /* background-image: linear-gradient(to bottom, rgb(246, 246, 237), #ffffff); */
+  background-color: #6ab06a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;             /* allow 2 rows */
+  justify-content: center;     /* center the whole grid */
+  align-items: flex-start;     /* align boxes from top of each row */
+  row-gap: 40px;               /* vertical gap between rows (decrease this to tighten) */
+  column-gap: 40px;            /* horizontal gap between boxes */
+  box-sizing: border-box;
+}
+
+/* Each child card */
+.insight {
+  flex: 0 1 calc(50% - 40px);  /* two cards per row (50% minus column gaps) */
+  max-width: calc(50% - 40px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  min-height: 120px;           /* optional, adjust as needed */
+  margin: 0;                   /* avoid extra margins */
+}
+
+/* inner layout (logo + text) */
+.report-inner {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.report-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.report-heading {
+  margin: 0;
+  font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   text-align: left;
+   color: #144c14;
+}
+
+.report-desc {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.35;
+   font-family: "Poppins", sans-serif;
+   text-align: left;
+   color: #1e741e;
+}
+
+/* Responsiveness: on small screens make them full width */
+@media (max-width: 576px) {
+  .insight {
+    flex: 0 1 100%;
+    max-width: 100%;
+  }
 }

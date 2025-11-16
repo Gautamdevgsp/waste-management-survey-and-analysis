@@ -31,7 +31,9 @@ function Home() {
         </div>
         </section>
 
-      <hr className="w-100 my-5 bg-dark" style={{ height: '3px' }} />
+           <div className="row d-flex justify-content-center mt-5 mb-5 ">
+                    <hr className="w-75" />
+                  </div>
 
        <div className='map-box ms-5 me-5 rounded'>
 
@@ -56,7 +58,8 @@ function Home() {
         </div>
         </section>
 
-
+        <hr className="w-100 my-5 bg-dark" style={{ height: '3px' }} />
+        
       <section id='team'>
       <div>
         <Team />
@@ -69,11 +72,6 @@ function Home() {
        <footer className="footer mt-5">
   <div className="footer-section about">
     <h3>Submitted By</h3>
-    {/* <p>
-      This website showcases interactive charts and visualizations created
-      using Colab and React. Our goal is to make data analysis more accessible
-      and engaging.
-    </p> */}
     <ul>
       <li>Eakamjot Singh-22303062</li>
       <li>Gautam Sharma-22303066</li>

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const NAVBAR_HEIGHT = 70; // keep in sync with your .navbar height in css
 
-const Navbar2 = () => {
+const Navbar3 = () => {
   const [activeSection, setActiveSection] = useState("home");
   const observerRef = useRef(null);
 
@@ -53,7 +53,7 @@ const Navbar2 = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="navbar2 d-flex justify-content-start">
+    <nav className="navbar3 d-flex justify-content-start">
       <ul>
         <li>
           <button
@@ -65,26 +65,42 @@ const Navbar2 = () => {
         </li>
         <li>
           <button
-            className={activeSection === "overview" || activeSection === "heading"? "active" : ""}
-            onClick={() => scrollToSection("overview")}
+            className={activeSection === "what" || activeSection === "heading"? "active" : ""}
+            onClick={() => scrollToSection("what")}
           >
-            Overview
+            What
           </button>
         </li>
         <li>
           <button
-            className={activeSection === "trend" ? "active" : ""}
-            onClick={() => scrollToSection("trend")}
+            className={activeSection === "types" ? "active" : ""}
+            onClick={() => scrollToSection("types")}
           >
-            Trends
+            Types
           </button>
         </li>
         <li>
           <button
-            className={activeSection === "report" ? "active" : ""}
-            onClick={() => scrollToSection("report")}
+            className={activeSection === "flowchart" ? "active" : ""}
+            onClick={() => scrollToSection("flowchart")}
           >
-           Report
+           Flowchart
+          </button>
+        </li>
+        <li>
+          <button
+            className={activeSection === "diff" ? "active" : ""}
+            onClick={() => scrollToSection("diff")}
+          >
+           Difference
+          </button>
+        </li>
+        <li>
+          <button
+            className={activeSection === "table" ? "active" : ""}
+            onClick={() => scrollToSection("table")}
+          >
+           Table
           </button>
         </li>
       </ul>
@@ -92,4 +108,4 @@ const Navbar2 = () => {
   );
 };
 
-export default Navbar2;
+export default Navbar3;

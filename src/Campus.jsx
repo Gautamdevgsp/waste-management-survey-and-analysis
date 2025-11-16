@@ -62,8 +62,8 @@ function Campus() {
             <div className="box">
               <p className="text">Major Used Bin</p>
               <img
-               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufzYv0rJxrkexNVf15qrRxw_8tOBsf9IQ8A&s"
-               alt="logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufzYv0rJxrkexNVf15qrRxw_8tOBsf9IQ8A&s"
+                alt="logo"
                 className="logo"
               />
               <h3 className="number">Swing Lid Bin(56.3%)</h3>
@@ -72,8 +72,8 @@ function Campus() {
         </section>
 
         <hr className="w-100 my-5 bg-dark" style={{ height: "3px" }} />
-       
-       <div className="row d-flex justify-content-center  ">
+
+        <div className="row d-flex justify-content-center  ">
           <h1 className="surveyy d-flex justify-content-center mt-1">TRENDS</h1>
           <hr className="w-75" />
         </div>
@@ -84,7 +84,7 @@ function Campus() {
               className="chart-box"
               src="/chartv1.html"
               title="Colab Chart"
-            ></iframe> 
+            ></iframe>
             <iframe
               className="chart-box"
               src="/chartv5.html"
@@ -95,7 +95,7 @@ function Campus() {
               src="/chartv2.html"
               title="Colab Chart"
             ></iframe>
-           
+
             <iframe
               className="chart-box-wide"
               src="/chartv4.html"
@@ -107,7 +107,7 @@ function Campus() {
               src="/chartv3.html"
               title="Colab Chart"
             ></iframe>
-            
+
             <iframe
               className="chart-box"
               src="/chartv6.html"
@@ -118,34 +118,152 @@ function Campus() {
 
         <hr className="w-100 my-5 bg-dark" style={{ height: "3px" }} />
 
-       <footer className="footer mt-5">
-  <div className="footer-section about">
-    <h3>Submitted By</h3>
-  
-    <ul>
-      <li>Eakamjot Singh-22303062</li>
-      <li>Gautam Sharma-22303066</li>
-      <li>Gurvansh Singh-22303076</li>
-    </ul>
-  </div>
+        <section id="report">
+          <div className="row d-flex justify-content-center mb-5">
+            <h1 className="surveyy d-flex justify-content-center mt-1">
+              REPORT
+            </h1>
+            <hr className="w-75" />
+          </div>
 
-  <div className="footer-section contact">
-    <h3>Contact</h3>
-    <p>Email: gautamsharma5144@gmail.com</p>
-    <p>Email: gurvanshsingh917@gmail.com</p>
-    <p>Email: eakamjot10@gmail.com</p>
-   
-  </div>
+          <div className="report-box ms-5 me-5 rounded ">
+            <div className="insight col-12 col-sm-6 col-md-5 d-flex justify-content-center">
+              <div className="report-inner d-flex">
+                {/* Logo */}
+                <img
+                  className="report-logo"
+                  src="data:image/png;base64,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"
+                  alt="number"
+                />
 
-  <div className="footer-section resources">
-    <h3>Resources</h3>
-    <ul>
-       <li><a href="https://github.com/Gautamdevgsp/waste-management-survey-and-analysis">GitHub Repo</a></li>
-      <li><a href="https://react.dev/">Documentation</a></li>
-      <li><a href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">Colab</a></li>
-    </ul>
-  </div>
-</footer>
+                {/* Text Section */}
+                <div className="report-text ms-3">
+                  <h3 className="report-heading">RECOMMENDATION</h3>
+                  <p className="report-desc">
+                    Data-Driven Waste Management System This project proposes
+                    the implementation of a sustainable, data-driven waste
+                    management. Data-Driven Waste Management System This project
+                    proposes the implementation of a sustainable, data-driven
+                    waste management. Data-Driven Waste Management System This
+                    project proposes the implementation of a sustainable,
+                    data-driven waste management.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="insight col-12 col-sm-6 col-md-5 d-flex justify-content-center">
+              <div className="report-inner d-flex">
+                {/* Logo */}
+                <img
+                  className="report-logo"
+                  src="data:image/png;base64,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"
+                  alt="number"
+                />
+
+                {/* Text Section */}
+                <div className="report-text ms-3">
+                  <h3 className="report-heading">RECOMMENDATION</h3>
+                  <p className="report-desc">
+                    Data-Driven Waste Management System This project proposes
+                    the implementation of a sustainable, data-driven waste
+                    management. Data-Driven Waste Management System This project
+                    proposes the implementation of a sustainable, data-driven
+                    waste management. Data-Driven Waste Management System This
+                    project proposes the implementation of a sustainable,
+                    data-driven waste management.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="insight col-12 col-sm-6 col-md-5 d-flex justify-content-center">
+              <div className="report-inner d-flex">
+                {/* Logo */}
+                <img
+                  className="report-logo"
+                  src="data:image/png;base64,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"
+                  alt="number"
+                />
+
+                {/* Text Section */}
+                <div className="report-text ms-3">
+                  <h3 className="report-heading">RECOMMENDATION</h3>
+                  <p className="report-desc">
+                    Lorem ipsum dolor sit 10n3CMZaOMzrpSG9PNQYS1Ds2x0z3CDlIyamet
+                    consectetur adipisicing elit. Molestias beatae harum ab
+                    iusto nostrum nesciunt totam quae minus doloribus cumque
+                    enim laborum nihil fugit magnam animi quibusdam, ipsum,
+                    error ipsa? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="insight col-12 col-sm-6 col-md-5 d-flex justify-content-center">
+              <div className="report-inner d-flex">
+                {/* Logo */}
+                <img
+                  className="report-logo"
+                  src="data:image/png;base64,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"
+                  alt="number"
+                />
+
+                {/* Text Section */}
+                <div className="report-text ms-3">
+                  <h1 className="report-heading">RECOMMENDATION</h1>
+                  <p className="report-desc">
+                    Data-Driven Waste Management System This project proposes
+                    the implementation of a sustainable, data-driven waste
+                    management. DatFKLDSLFKA;Lgement System This project
+                    proposes the implementation of a sustainable, data-driven
+                    waste management. DJDHJKAKJDKLJLKA This project proposes the
+                    implementation of a sustainable, data-driven waste
+                    management.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr className="w-100 my-5 bg-dark" style={{ height: "3px" }} />
+        <footer className="footer mt-5">
+          <div className="footer-section about">
+            <h3>Submitted By</h3>
+
+            <ul>
+              <li>Eakamjot Singh-22303062</li>
+              <li>Gautam Sharma-22303066</li>
+              <li>Gurvansh Singh-22303076</li>
+            </ul>
+          </div>
+
+          <div className="footer-section contact">
+            <h3>Contact</h3>
+            <p>Email: gautamsharma5144@gmail.com</p>
+            <p>Email: gurvanshsingh917@gmail.com</p>
+            <p>Email: eakamjot10@gmail.com</p>
+          </div>
+
+          <div className="footer-section resources">
+            <h3>Resources</h3>
+            <ul>
+              <li>
+                <a href="https://github.com/Gautamdevgsp/waste-management-survey-and-analysis">
+                  GitHub Repo
+                </a>
+              </li>
+              <li>
+                <a href="https://react.dev/">Documentation</a>
+              </li>
+              <li>
+                <a href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">
+                  Colab
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
       </div>
     </div>
   );

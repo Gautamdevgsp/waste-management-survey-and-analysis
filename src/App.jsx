@@ -7,6 +7,7 @@ import Hostel from './Hostel';
 import Dept from './Dept';
 import Campus from './Campus';
 import Res from './Res';
+import Mrf from './mrf';
  
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path='/dept' element={<Dept/>}></Route>
       <Route path='/campus' element={<Campus/>}></Route>
       <Route path='/res' element={<Res/>}></Route>
+      <Route path='/mrf' element={<Mrf/>}></Route>
     </Routes>
     </BrowserRouter>
        

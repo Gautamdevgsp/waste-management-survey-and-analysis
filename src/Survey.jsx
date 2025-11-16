@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css"; // CSS file
 import Team from "./Team";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Survey() {
   // You can attach click handlers if you want navigation later
@@ -83,17 +83,20 @@ function Survey() {
       </div>
       <hr className="w-100 my-5 bg-dark" style={{ height: "2px" }} />
 
-      <div className="vaddi ms-5 me-5">
+      <div className="vaddi ms-5 me-5 rounded">
         <div className="row d-flex justify-content-center  ">
           <h1 className="surveyy d-flex justify-content-center">
             MRF PROPOSAL SUMMARY
           </h1>
           <hr className="w-75" />
         </div>
-    
+
         <div class="mrf">
           <div class="mrf-text">
-            <img src="https://cdn-icons-png.flaticon.com/128/9494/9494567.png" alt="number"></img>
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/9494/9494567.png"
+              alt="number"
+            ></img>
             <p>
               Data-Driven Waste Management System This project proposes the
               implementation of a sustainable, data-driven waste management
@@ -123,10 +126,12 @@ function Survey() {
               alt="MRF Tyre"
             ></img>
           </div>
-           
-           
+
           <div class="mrf1-text">
-            <img src="https://cdn-icons-png.flaticon.com/128/9494/9494600.png" alt="number"></img>
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/9494/9494600.png"
+              alt="number"
+            ></img>
             <p>
               The Material Recovery Facility (MRF) serves to process and
               segregate the university's complex waste streams , ensuring the
@@ -139,9 +144,19 @@ function Survey() {
             </p>
           </div>
         </div>
+        <div className="d-flex justify-content-center align-items-center">
+        <button
+          className="mrf-button mt-4 mb-4 p-3"
+          onClick={() => {
+            navigate("/mrf");
+             window.scrollTo(0, 0);
+          }}
+        >
+          Click here for detailed Summary
+        </button>
+        </div>
       </div>
-      {/* </div> */}
-      <hr className="w-100 my-5 bg-dark" style={{ height: "2px" }} />
+      
     </>
   );
 }
