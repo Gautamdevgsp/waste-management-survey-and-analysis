@@ -231,14 +231,15 @@ function Dept() {
             </ul>
           </div>
 
-          <div className="footer-section contact">
+          <div className="footer-section contact ">
             <h3>Contact</h3>
+            <p>Email: eakamjot10@gmail.com</p>
             <p>Email: gautamsharma5144@gmail.com</p>
             <p>Email: gurvanshsingh917@gmail.com</p>
-            <p>Email: eakamjot10@gmail.com</p>
+            
           </div>
 
-          <div className="footer-section resources">
+          <div className="footer-section resources ms-5">
             <h3>Resources</h3>
             <ul>
               <li>

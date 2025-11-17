@@ -58,7 +58,9 @@ const Navbar3 = () => {
         <li>
           <button
             className={activeSection === "home"  ? "active" : ""}
-            onClick={() => navigate("/")}
+            onClick={() => {navigate("/")
+               window.scrollTo(0, 0);}
+            }
           >
             Home
           </button>

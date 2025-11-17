@@ -197,7 +197,8 @@ function Campus() {
                     university should increase the capacity of bins in
                     high-traffic food areas (Canteen, Nescafe) to prevent
                     overflow during peak hours. Authorities should also consider
-                    replacing multiple small bins in areas like Applied Sciences.
+                    replacing multiple small bins in areas like Applied
+                    Sciences.
                   </p>
                 </div>
               </div>
@@ -230,6 +231,7 @@ function Campus() {
         </section>
 
         <hr className="w-100 my-5 bg-dark" style={{ height: "3px" }} />
+
         <footer className="footer mt-5">
           <div className="footer-section about">
             <h3>Submitted By</h3>
@@ -243,12 +245,12 @@ function Campus() {
 
           <div className="footer-section contact">
             <h3>Contact</h3>
+            <p>Email: eakamjot10@gmail.com</p>
             <p>Email: gautamsharma5144@gmail.com</p>
             <p>Email: gurvanshsingh917@gmail.com</p>
-            <p>Email: eakamjot10@gmail.com</p>
           </div>
 
-          <div className="footer-section resources">
+          <div className="footer-section resources ms-5">
             <h3>Resources</h3>
             <ul>
               <li>
@@ -267,6 +269,7 @@ function Campus() {
             </ul>
           </div>
         </footer>
+        
       </div>
     </div>
   );

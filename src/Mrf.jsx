@@ -33,8 +33,8 @@ function Mrf() {
           <div className="mrf1">
             <div className="mrf1-image">
               <img
-                src="https://www.recyclingtoday.com/remote/aHR0cHM6Ly9naWVjZG4uYmxvYi5jb3JlLndpbmRvd3MubmV0L2ZpbGV1cGxvYWRzL2ltYWdlLzIwMjUvMDEvMzAvbHJzLWltYWdlXzEuanBn.7g1T7njxQok.jpg?format=webp"
-                alt="MRF Tyre"
+                src="https://www.resourcerecoverygroup.com.au/Profiles/rrg/Assets/ClientData/Images/Page-content/materials-recovery-facility.jpg"
+                 alt="MRF Tyre"
               ></img>
             </div>
 
@@ -443,43 +443,45 @@ function Mrf() {
 </div>
 </section>
 
+
       <footer className="footer mt-5">
-        <div className="footer-section about">
-          <h3>Submitted By</h3>
+          <div className="footer-section about">
+            <h3>Submitted By</h3>
 
-          <ul>
-            <li>Eakamjot Singh-22303062</li>
-            <li>Gautam Sharma-22303066</li>
-            <li>Gurvansh Singh-22303076</li>
-          </ul>
-        </div>
+            <ul>
+              <li>Eakamjot Singh-22303062</li>
+              <li>Gautam Sharma-22303066</li>
+              <li>Gurvansh Singh-22303076</li>
+            </ul>
+          </div>
 
-        <div className="footer-section contact">
-          <h3>Contact</h3>
-          <p>Email: gautamsharma5144@gmail.com</p>
-          <p>Email: gurvanshsingh917@gmail.com</p>
-          <p>Email: eakamjot10@gmail.com</p>
-        </div>
+          <div className="footer-section contact">
+            <h3>Contact</h3>
+            <p>Email: eakamjot10@gmail.com</p>
+            <p>Email: gautamsharma5144@gmail.com</p>
+            <p>Email: gurvanshsingh917@gmail.com</p>
+          </div>
 
-        <div className="footer-section resources">
-          <h3>Resources</h3>
-          <ul>
-            <li>
-              <a href="https://github.com/Gautamdevgsp/waste-management-survey-and-analysis">
-                GitHub Repo
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/">Documentation</a>
-            </li>
-            <li>
-              <a href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">
-                Colab
-              </a>
-            </li>
-          </ul>
-        </div>
-      </footer>
+          <div className="footer-section resources ms-5">
+            <h3>Resources</h3>
+            <ul>
+              <li>
+                <a href="https://github.com/Gautamdevgsp/waste-management-survey-and-analysis">
+                  GitHub Repo
+                </a>
+              </li>
+              <li>
+                <a href="https://react.dev/">Documentation</a>
+              </li>
+              <li>
+                <a href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">
+                  Colab
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+
     </div>
   );
 }

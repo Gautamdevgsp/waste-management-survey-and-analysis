@@ -76,37 +76,44 @@ function Res() {
 
         <hr className="w-100 my-5 bg-dark" style={{ height: "3px" }} />
 
-        <footer className="footer mt-5">
+          <footer className="footer mt-5">
           <div className="footer-section about">
-            <h3>About</h3>
-            <p>
-              This website showcases interactive charts and visualizations
-              created using Colab and React. Our goal is to make data analysis
-              more accessible and engaging.
-            </p>
+            <h3>Submitted By</h3>
+
+            <ul>
+              <li>Eakamjot Singh-22303062</li>
+              <li>Gautam Sharma-22303066</li>
+              <li>Gurvansh Singh-22303076</li>
+            </ul>
           </div>
 
           <div className="footer-section contact">
             <h3>Contact</h3>
-            <p>Email: info@example.com</p>
-            <p>Phone: +91 98765 43210</p>
+            <p>Email: eakamjot10@gmail.com</p>
+            <p>Email: gautamsharma5144@gmail.com</p>
+            <p>Email: gurvanshsingh917@gmail.com</p>
           </div>
 
-          <div className="footer-section resources">
+          <div className="footer-section resources ms-5">
             <h3>Resources</h3>
             <ul>
               <li>
-                <a href="#">Documentation</a>
+                <a href="https://github.com/Gautamdevgsp/waste-management-survey-and-analysis">
+                  GitHub Repo
+                </a>
               </li>
               <li>
-                <a href="#">API Reference</a>
+                <a href="https://react.dev/">Documentation</a>
               </li>
               <li>
-                <a href="#">GitHub Repo</a>
+                <a href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">
+                  Colab
+                </a>
               </li>
             </ul>
           </div>
         </footer>
+
       </div>
     </div>
   );

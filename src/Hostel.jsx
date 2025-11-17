@@ -2,7 +2,7 @@ import React from "react";
 import Navbar2 from "./Navbar2";
 import "./Eightboxes.css";
 import Trend from "./Trend";
-import "./App.css"
+import "./App.css";
 
 function Hostel() {
   return (
@@ -197,7 +197,7 @@ function Hostel() {
                   for composting programs to drive immediate behavioral change.
                   Furthermore, campaigns must be launched to reduce dry waste
                   per capita across all household sizes, while also working to
-                  improve e-waste disposal methods. 
+                  improve e-waste disposal methods.
                 </p>
               </div>
             </div>
@@ -214,11 +214,15 @@ function Hostel() {
               {/* Text Section */}
               <div className="report-text ms-3">
                 <h1 className="report-heading">FOR DETAILED ANALYSIS</h1>
-                 <div className="d-flex align-items-center justify-content-center">
-                  <a  className="mt-4" href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">
-                  https://colab.research.google.com/drive/<br></br>1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing
+                <div className="d-flex align-items-center justify-content-center">
+                  <a
+                    className="mt-4"
+                    href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing"
+                  >
+                    https://colab.research.google.com/drive/<br></br>
+                    1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing
                   </a>
-                 </div>
+                </div>
               </div>
             </div>
           </div>
@@ -238,12 +242,12 @@ function Hostel() {
 
         <div className="footer-section contact">
           <h3>Contact</h3>
+          <p>Email: eakamjot10@gmail.com</p>
           <p>Email: gautamsharma5144@gmail.com</p>
           <p>Email: gurvanshsingh917@gmail.com</p>
-          <p>Email: eakamjot10@gmail.com</p>
         </div>
 
-        <div className="footer-section resources">
+        <div className="footer-section resources ms-5">
           <h3>Resources</h3>
           <ul>
             <li>
