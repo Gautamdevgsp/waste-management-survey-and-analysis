@@ -38,7 +38,7 @@ function Home() {
        <div className='map-box ms-5 me-5 rounded'>
 
         <div className='map-text'>
-
+           
         </div>
           
         <div className=''>

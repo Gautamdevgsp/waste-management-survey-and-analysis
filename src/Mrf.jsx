@@ -20,7 +20,7 @@ function Mrf() {
           </div>
           {/* <p className='ms-3 flex-grow-1 text-center'>Waste  Management  Survey </p> */}
           <div className="flex-grow-1 text-start">
-            <p className="headres mb-0">Residential Waste Management</p>
+            <p className="headres mb-0">Material Recovery Facility</p>
             <p className="footres  mb-3">Analytics & Performance Dashboard</p>
           </div>
         </div>
@@ -33,7 +33,7 @@ function Mrf() {
           <div className="mrf1">
             <div className="mrf1-image">
               <img
-                src="https://www.re-group.com/wp-content/uploads/resized/2021/11/australias-newest-mrf-is-up-and-running-1200x0-c-default.jpg"
+                src="https://www.recyclingtoday.com/remote/aHR0cHM6Ly9naWVjZG4uYmxvYi5jb3JlLndpbmRvd3MubmV0L2ZpbGV1cGxvYWRzL2ltYWdlLzIwMjUvMDEvMzAvbHJzLWltYWdlXzEuanBn.7g1T7njxQok.jpg?format=webp"
                 alt="MRF Tyre"
               ></img>
             </div>
@@ -77,7 +77,7 @@ function Mrf() {
             <div className="mrf-image">
               <img
                 className="rounded"
-                src="https://www.rubicon.com/wp-content/uploads/2021/06/materials-recovery-facility.jpg"
+                src="https://aktid.com/wp-content/uploads/2025/06/dm-valor-pole-72-le-mans-deux-separateurs-balistiques-1200x850.jpg"
                 alt="MRF Tyre"
               ></img>
             </div>
@@ -90,7 +90,7 @@ function Mrf() {
           <div className="mrf1 mt-1 mb-2">
             <div className="mrf1-image">
               <img
-                src="https://www.re-group.com/wp-content/uploads/resized/2021/11/australias-newest-mrf-is-up-and-running-1200x0-c-default.jpg"
+                src="https://www.rocklandgreen.com/assets/Facilities/IMG_2795__ResizedImageWzYwMCw0NTBd.jpeg"
                 alt="MRF Tyre"
               ></img>
             </div>
@@ -123,7 +123,7 @@ function Mrf() {
             <div className="mrf-image">
               <img
                 className="rounded"
-                src="https://www.rubicon.com/wp-content/uploads/2021/06/materials-recovery-facility.jpg"
+                src="https://maanenviro.com/wp-content/uploads/2024/02/Product-Material-Recovery-Facility-MRF.jpeg"
                 alt="MRF Tyre"
               ></img>
             </div>
@@ -136,7 +136,7 @@ function Mrf() {
           <div className="mrf1 mt-1 mb-2">
             <div className="mrf1-image">
               <img
-                src="https://www.re-group.com/wp-content/uploads/resized/2021/11/australias-newest-mrf-is-up-and-running-1200x0-c-default.jpg"
+                src="https://wikiwaste.org.uk/images/b/b9/021_Mixed-Waste-Processing-1200x797.jpg"
                 alt="MRF Tyre"
               ></img>
             </div>
@@ -171,7 +171,7 @@ function Mrf() {
             <div className="mrf-image">
               <img
                 className="rounded"
-                src="https://www.rubicon.com/wp-content/uploads/2021/06/materials-recovery-facility.jpg"
+                src="https://recycleye.com/wp-content/uploads/2023/04/Lab.png"
                 alt="MRF Tyre"
               ></img>
             </div>
@@ -184,7 +184,7 @@ function Mrf() {
           <div className="mrf1 mt-1 mb-2">
             <div className="mrf1-image">
               <img
-                src="https://www.re-group.com/wp-content/uploads/resized/2021/11/australias-newest-mrf-is-up-and-running-1200x0-c-default.jpg"
+                src="https://averda.imgix.net/assets/uploads/MRF.darker.jpg?fit=fill&w=1920&quality=80&position=center-center"
                 alt="MRF Tyre"
               ></img>
             </div>
@@ -314,14 +314,6 @@ function Mrf() {
 
       <hr className="w-100 my-5 bg-dark" style={{ height: "2px" }} />
 
-      <section id="flowchart">
-        <div className="flowchart-box mt-5 ms-5 me-5 rounded">
-          <h1 className="py-3"> MRF FLOWCHART</h1>
-        </div>
-      </section>
-
-      <hr className="w-100 my-5 bg-dark" style={{ height: "2px" }} />
-
       <section id="diff">
         <div className="diff-box ms-5 me-5 mt-5 rounded">
           <h1> Difference Between Dirty MRF and Clean MRF</h1>
@@ -387,55 +379,107 @@ function Mrf() {
       <section id="table">
         <div class="capacity-table-container ms-5 me-5 rounded">
           <h1>Capacity Classification Summary Table</h1>
-             <div className="row d-flex justify-content-center mt-2 mb-5">
-                    <hr className="w-75" />
-                  </div>
-            <div className="d-flex justify-content-center">
-          <table class="capacity-table">
-            <thead>
-              <tr>
-                <th>MRF Type</th>
-                <th>Capacity (TPD)</th>
-                <th>Capacity (TPH)</th>
-                <th>Typical Use Case</th>
-              </tr>
-            </thead>
+          <div className="row d-flex justify-content-center mt-2 mb-5">
+            <hr className="w-75" />
+          </div>
+          <div className="d-flex justify-content-center">
+            <table class="capacity-table">
+              <thead>
+                <tr>
+                  <th>MRF Type</th>
+                  <th>Capacity (TPD)</th>
+                  <th>Capacity (TPH)</th>
+                  <th>Typical Use Case</th>
+                </tr>
+              </thead>
 
-            <tbody>
-              <tr>
-                <td>Small / Mini MRF</td>
-                <td>1–50</td>
-                <td>0.5–3</td>
-                <td>Rural areas, small towns, institutions</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>Small / Mini MRF</td>
+                  <td>1–50</td>
+                  <td>0.5–3</td>
+                  <td>Rural areas, small towns, institutions</td>
+                </tr>
 
-              <tr>
-                <td>Medium MRF</td>
-                <td>50–300</td>
-                <td>3–10</td>
-                <td>Municipal plants, regional hubs</td>
-              </tr>
+                <tr>
+                  <td>Medium MRF</td>
+                  <td>50–300</td>
+                  <td>3–10</td>
+                  <td>Municipal plants, regional hubs</td>
+                </tr>
 
-              <tr>
-                <td>Large MRF</td>
-                <td>300–1,000</td>
-                <td>10–35</td>
-                <td>Big cities, high-volume recycling</td>
-              </tr>
+                <tr>
+                  <td>Large MRF</td>
+                  <td>300–1,000</td>
+                  <td>10–35</td>
+                  <td>Big cities, high-volume recycling</td>
+                </tr>
 
-              <tr>
-                <td>Mega / Regional MRF</td>
-                <td>1,000–5,000</td>
-                <td>35–100</td>
-                <td>Mega cities, multi-municipality centers</td>
-              </tr>
-            </tbody>
-          </table>
+                <tr>
+                  <td>Mega / Regional MRF</td>
+                  <td>1,000–5,000</td>
+                  <td>35–100</td>
+                  <td>Mega cities, multi-municipality centers</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
 
-       <hr className="w-100 my-5 bg-dark" style={{ height: "2px" }} />
+  
+
+      <hr className="w-100 my-5 bg-dark" style={{ height: "2px" }} />
+
+<section id="report">
+<div class="capacity-table-container ms-5 me-5 rounded">
+<div className="pdf-wrapper rounded pt-5 pb-5">
+  <iframe
+    src="/MRF.pdf"
+    title="Embedded PDF"
+    className="pdf-frame"
+  ></iframe>
+</div>
+</div>
+</section>
+
+      <footer className="footer mt-5">
+        <div className="footer-section about">
+          <h3>Submitted By</h3>
+
+          <ul>
+            <li>Eakamjot Singh-22303062</li>
+            <li>Gautam Sharma-22303066</li>
+            <li>Gurvansh Singh-22303076</li>
+          </ul>
+        </div>
+
+        <div className="footer-section contact">
+          <h3>Contact</h3>
+          <p>Email: gautamsharma5144@gmail.com</p>
+          <p>Email: gurvanshsingh917@gmail.com</p>
+          <p>Email: eakamjot10@gmail.com</p>
+        </div>
+
+        <div className="footer-section resources">
+          <h3>Resources</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/Gautamdevgsp/waste-management-survey-and-analysis">
+                GitHub Repo
+              </a>
+            </li>
+            <li>
+              <a href="https://react.dev/">Documentation</a>
+            </li>
+            <li>
+              <a href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing">
+                Colab
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   );
 }

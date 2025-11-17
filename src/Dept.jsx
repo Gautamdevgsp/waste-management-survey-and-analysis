@@ -141,15 +141,16 @@ function Dept() {
 
                 {/* Text Section */}
                 <div className="report-text ms-3">
-                  <h3 className="report-heading">RECOMMENDATION</h3>
+                  <h3 className="report-heading">REPORT SUMMARY</h3>
                   <p className="report-desc">
-                    Data-Driven Waste Management System This project proposes
-                    the implementation of a sustainable, data-driven waste
-                    management. Data-Driven Waste Management System This project
-                    proposes the implementation of a sustainable, data-driven
-                    waste management. Data-Driven Waste Management System This
-                    project proposes the implementation of a sustainable,
-                    data-driven waste management.
+                    The departmental waste survey covered 18 bins across six
+                    departments, revealing varied strategies for capacity and
+                    distribution. The Civil/Academic department showed the
+                    highest centralization with the largest total capacity (400
+                    Ltr) and average capacity (200.0 Ltr/bin), utilizing large
+                    wheeled bins. In contrast, Mechanical/Computer Science uses
+                    the highest count of bins (5), but their average capacity is
+                    low (38.0 Ltr/bin).
                   </p>
                 </div>
               </div>
@@ -166,15 +167,14 @@ function Dept() {
 
                 {/* Text Section */}
                 <div className="report-text ms-3">
-                  <h3 className="report-heading">RECOMMENDATION</h3>
+                  <h3 className="report-heading">KEY INSIGHTS</h3>
                   <p className="report-desc">
-                    Data-Driven Waste Management System This project proposes
-                    the implementation of a sustainable, data-driven waste
-                    management. Data-Driven Waste Management System This project
-                    proposes the implementation of a sustainable, data-driven
-                    waste management. Data-Driven Waste Management System This
-                    project proposes the implementation of a sustainable,
-                    data-driven waste management.
+                    The analysis highlights a significant Capacity Disparity in
+                    waste strategy, with Civil/Academic using large, centralized
+                    bins, while all other departments employ many small bins.
+                    This decentralized strategy prioritizes accessible
+                    collection points over centralized bulk capacity. 
+                    
                   </p>
                 </div>
               </div>
@@ -192,40 +192,31 @@ function Dept() {
                 <div className="report-text ms-3">
                   <h3 className="report-heading">RECOMMENDATION</h3>
                   <p className="report-desc">
-                    Lorem ipsum dolor sit 10n3CMZaOMzrpSG9PNQYS1Ds2x0z3CDlIyamet
-                    consectetur adipisicing elit. Molestias beatae harum ab
-                    iusto nostrum nesciunt totam quae minus doloribus cumque
-                    enim laborum nihil fugit magnam animi quibusdam, ipsum,
-                    error ipsa? Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit
+                    The immediate priority is to start tracking the collection frequency for all 18 bins to measure service efficiency. Authorities should investigate whether the smaller bins, especially in departments like Mechanical/CS, are frequently overflowing. Based on this data, bin sizes should be standardized to improve collection route efficiency, and larger bins should be considered for high-count departments to reduce reliance on numerous small units.  
                   </p>
                 </div>
               </div>
             </div>
-            <div className="insight col-12 col-sm-6 col-md-5 d-flex justify-content-center">
-              <div className="report-inner d-flex">
-                {/* Logo */}
-                <img
-                  className="report-logo"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAw1BMVEUFxlP///8Lnz/s+PEUokULnT4AmjD8/v2z3L8AxU4Bnjwfp08Aw0cAmzQAxEuXy6MAwkEby2H4/vvU9OAGwVEnqVQAmCkizGbG8NUKp0MIs0nj+Oue4rFR1IASyFqp6L697c4JrEZo2I470HNt2ZLO8tsHuEyC3J6168ij5rlh1omW469O0XvB7tHb9uWI36Wo2LbC5cxlwIFyxYuFypnQ6NZ53JpHsGdYtnSOzKB8xZEApzJtvoSZ1609rF6h1rFVunMbcR+vAAAM0UlEQVR4nNXda3ubuBIAYDAJjqigGBpI1jb22m7tNG7SZpOm6W7T/v9ftdiOzU1CtxnizLfzbI/LWwlpNAhh2cjRj5x4OhktZ+N5Osgyy7KybJDOx7PlaDKNnaiPfQEW4m87N6vb2dwKQ0qDgBBiFZH/ryCgNAyt+Ww5uXEQrwJJ2I8ni3mWyyouVuRUSq35YhLjXAmKML4aW0GOE9gqzvzPW+sRhhJa6KwWVkhVcCUmDa3FCrrHggqHkzHR1BVKMr4aQl4UnDBarU15B+R6EoFdF5TwYkZBeHsk/fwR6MpAhM4oDeF4L8gwvQa5JQGE8XcLsPlKRmp9BxhcjYXxOAgQeLsIgrVxZzUUXszBu2c1SDi/eEXhxzWyb2dcGxkNhPEY5fZjGOnY4H7UFjqLjnw740J7XNUU9q8RxxdWBMFIc52lJ7xIaae+TdBU73bUEUbfO+ygReRdVSeX0xBOSbcdtIiArDoQOp/DV/JtIpwpjziqwi+D12rAXQTZF1zh8lXuwHIQukQUDl9hCG0GTZVWyCrCqfXaDbgLQqY4wutjaMBd0FsEYTQ+HmBOHEtPjbLCYfq6Y2g9goHszSgpjLPjuAWLIJnk2lhOOBWWrrsP2fFGSnj1mmkMP8IrKOH1cQJz4ghGeHtMg2g16DWE8IiBOVGcwgmFy2PtorsIhUSR8KhbcBPCjioQHlGmxgsqGG7ahUc6TVRDMGm0CqdvAZgTW6f+NmF8fIkMO0hbwbhF6BxdLsoLkrWk4XxhlL4VYE4c8BdTfOH4uJZL7RGM1YVvYJ4oB39a5AmnbwuYE3kDKkc4fO0LVg/CGW04wjc0yuyDpCrC5Vvro5vgrDOYwi9vEZgTmQV/lvDtTPXVIAPWYxuWcNbRTBhQmg1KQULDvzj4LCfsKN8m9DaO+pUYXhsSQ8bzxaYw6qaLBmtWlxp+MPtV2szemsJFJ300GLM3HtybEYOZWHjRyThKUs7OigfXjEgb2xnqwn43cz0vAbGHXs+I2Pynqwu7Sbgpd8eBc+L1Phn9dD0Frwmdbm7CBQ+4FZoRg9oIVhN2Msy0rVe3wtO/DH69/s9XFcad9NHwhgvcCc2ItFq1qQrHXQwzrTXcnbB3+rf+75Pqer8i7GSmaCk4FEIjYnXGqAjXncwUrbua9kITIlnzhBddJKTcakNN2Du91P47wnIjloXzDpqQfm8FloS9njaRzNnCjx00ITdbYwl7l7rpTVgaTkvCLu7CoGWiaAp7uhlceTgthHEHkz0V7i2oCk91iaV/yUL4HV/IXIO3tqEuMShu94PQAdawgoi3atWEuVEzST3MSQdhB4sKKrGLqSHUJBZPhg9C/HWh1IbCplCPWNSH90L82Z7MZV6YYAj18vBw32H2whl6EwZSmwlZQq0MjuwrNi/CCP0uZBX6ZIVaxH3Z7UU4wRZKTBQtQh0inVSE2PlM27JeRqiRh+9XGDvhEPsuDGRfBeUJNfLwl3reTniF3Ell9hCKhMp5+Es33QmRqxeV1Yy2UDUPf0m/t0IHuZPWC3wvwbo124SqSSpxDsIVbiflLOsfvqq2oSJxV3feCheobchZ1kcnZ6pCxQyOLA5CNNz270nZE8U/iYZQsR6+F8aoOSmn/nuWuFpClVbcFjM2whHmbcjZ4Oq4PT2hSh6+/bs3Qsy5glf/ffR1hQrE7XyRC/t4PotX/31ye9pClSR1J8QsQbG3uNgPOVBfKE8M4q0QcV3BmyjeeUZC6Tx8k7hZmM8MeVvN7vyemVCWuHmWaGEW8zn1369Jz1QoudTYJMSW7WRYwP0atBZD3wMQyuXhmZMLb7BuQ86yvv/o9yCEUkkqvcmFeAMNO1u7d3sgQilinnxb9i3SQBOyl/UPyf4KTYUyGVxwmwuR6oic+m/UOwjMheI8nMxsq48zlPLqv3f+4eoghKJWzAdTK8Lwceu/X93i6iCE4iQ1shyUpROn/jssAWGEImLoWCiLQ8YmyG2cly8fRihIUmlsYbw6wqv//iw3IZSwnUinFsZ0yKn/fqsAwYStSSqdWCP46ZBT/61fPJiwjRiMrCW4sLolqYgffvW64IQteXiwtOAnfMJe1v92a1cFKeTm4WRmgRdpOPXfm6R+TaBCXpJKxtYcGshZ1p83rhy2DTlEMrdSWCCv/vvTb1wTrDAnMjO41BrACjn132+NPgou7LHz8NSCXeFztnU5LuO64YWsPDyDFfKe1j+yLhteyEpSYVuQZOyJ4n19osASmm2Bl4i2+m83QqP94RJA9muqu/pvR0IGEa6f8uq//zUnCkRhPUmFHGk49d8zxkSBKawRM7j5UFD/7U5YzcMHYDkNb1nPnCiQhT2vyOBSC6rUlrGztSf2OIosLJLUPC8FWlsI67+dCgtivraAWR9ylvWR13K9mMJDHk4WMGt83rKeN1HgC3sveXhwC1On4bzW+5V/E3Yg3BKDEUitjVf/5U4U3Qg3SSqdQNRLKWeieG6/WHThhkinADVv7rI+8VuDvevLc4s/YZ7e/B3GAM8tOC+KOE/vBfHA+H9Fpf9+/+i2jVRSxH8d82dPKidPq0b/yZSYRObPDznJDFC0zjfi8E4i42fAoqMnDaMtKZIR/jB/jh+CfgauGWZC/6f5XgyKC7TNZg//l/l+mgxZyCmBSEbyYL4nilO6AIvm0wClNhwa72vjFWeOQ+g9m+9NPHLhH/P9pcct9H+b7xE+bqH7bbeT3QB45EIvMt+rf9RC79wGeN9igCw0mQ/99zbEOzPIwrZaliiSbzbAe08h6tLCjkzy0sS2Ad5d4x+9BhJnrcWs9vDuDkKT9w+RhxqTgcb9fRAavUNK0jOnrxcsUvm/O2dms2HxDqnZu13kU9J7pxE9ZiXqvPQHEtYGB+nYpGw20Lvcn049jeBVE4sw4G2a8FdJaPo+/l+nOleAXC/1y+/jG5+poENEFm5WTiWhcW3/b3UisnA3kgKebXKpTEQWJk5FCPBeyeVxCV9G0kIIcBydKhFXuM1Jy0KAc6I+eGodFVXondh1IcAr6x/ULgJV6D81hBDntX1QakRcYfO8NpAz9z4di9D/z24KQV5a/6TQiphC94EhhDlaQSG5wdwT9Vz8YkkI846XPBFReJgqqkKg19al8zc84bbGxhICnSwoS8QTlpsQ5SxoyeQGTVi+C5HO85YjogndchPinMn+oSfTUbGE3mPlF3HO1ZciYgmT6v6eWska6jBhmRQVSej/qP5i/fsWUO/qSRCRhEn79y3gTsUS5284Qve+9ot435kREl3WmXtDQ6D3rv4cBfFbQaL8zf/JEHLeIJKOZsfA/N6TILnx3jGE92b72OrDDFMI+M0uAdFvdtOhYaG7PswwhZDfXROUGN2fw+p3194bbppNGLc28rfzBPmbn/gnxZMYLzHcTer/YWiwv38oTFHBHsRsfoq1TxL7G5ZyKSpMsPoo7zukt2+R6P/DtOB/S1axiqod3gl7z0QH3wNWqb8ZhMv5wEsX33TuhMi+CVuEoF/00HpErBacm7BNCPptdXSi/8x18IUR5FdLNB4Rq4R3yf/UWcu2NNAPH6MSPb/lM1JtG+9iyMN5lB8RK0S1uKYgtL9AnuWGR+QOo2KhPYEkKj4ilgc+tRoE20MhP3yBlL+5rFKBvBB0WkTJ31zuRCgptJeAHVXtKbgc8E4EEG9iBlxnwOdvYqCEELSjAhOFXVROaF8BdlTQ/C0RDDLSQtBJAzC5SerlbX2hPSWdlRilw2PWzHWFdgxZnAIhen5bqqYutJ20sxKjHPBS9M1WVaEdjeGGVHOg/9z6ZWgtIeSsobqLsRGJxCyhIbSnFtzzUxOi7BijLrSHKVQzmqSo/jvWgRowwk0KB9SM2imql9ypvUum+nLdxQBoTNXM33xPpYfqCG3nM1CCo5W/JX+UD6nQeEFyFcA0ozrRS36rX67OK6DRAuZuVMzfPPeH9CRoKMzvRphBVYnoM78miCW0+yOQriqfv3nJvebruNovKjsgXVWS6LnqI4yxMF9vjAGMMvmb5z5LriOAhbb9cR2aGsX5m5eY+AyF+ZAzNzUK8jcvOdcbYKCEm75KzMacNqJv1D+BhHk+vrSMbkhe/ub5/p1Sjo0mzMfVURoaNCST6CUn9zoTfCOgjrX4uKD6DdnI3zw/+WPcPV8C7uCOaLImusgK0cvvvt8gzbcN0KNJhpOxJvKQv/lu8vhLtsgkFdCHrzirhRVqKC9Pe17eeMmPX3CttwuM42Xiq7EV0ECFSYJ/Xe/8PdS9Vw6sA3TiyWKe0ZwpchISUJrNF6tvSAfdYB4R5NysbmfzvNPm0pxKKi4S5DIaWvPZ7eoGumeWA/sQpHyMdeLpZLScjedpmm1OMMyyQTofL5ajyTR2cE8o2sT/EudEY5lGehwAAAAASUVORK5CYII="
-                  alt="number"
-                />
+             <div className="insight col-12 col-sm-6 col-md-5 d-flex justify-content-center">
+            <div className="report-inner d-flex">
+              {/* Logo */}
+              <img
+                className="report-logo"
+                src="data:image/png;base64,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"
+                alt="number"
+              />
 
-                {/* Text Section */}
-                <div className="report-text ms-3">
-                  <h1 className="report-heading">RECOMMENDATION</h1>
-                  <p className="report-desc">
-                    Data-Driven Waste Management System This project proposes
-                    the implementation of a sustainable, data-driven waste
-                    management. DatFKLDSLFKA;Lgement System This project
-                    proposes the implementation of a sustainable, data-driven
-                    waste management. DJDHJKAKJDKLJLKA This project proposes the
-                    implementation of a sustainable, data-driven waste
-                    management.
-                  </p>
-                </div>
+              {/* Text Section */}
+              <div className="report-text ms-3">
+                <h1 className="report-heading">FOR DETAILED ANALYSIS</h1>
+                 <div className="d-flex align-items-center justify-content-center">
+                  <a  className="mt-4" href="https://colab.research.google.com/drive/1sWHGamBpYp6qxhcEeoUt0Q6sstdqYyy9?usp=sharing">
+                  https://colab.research.google.com/drive/<br></br>1sWHGamBpYp6qxhcEeoUt0Q6sstdqYyy9?usp=sharing
+                  </a>
+                 </div>
               </div>
             </div>
+          </div>
           </div>
         </section>
         <hr className="w-100 my-5 bg-dark" style={{ height: "3px" }} />

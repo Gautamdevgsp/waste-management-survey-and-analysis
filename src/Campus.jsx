@@ -138,15 +138,16 @@ function Campus() {
 
                 {/* Text Section */}
                 <div className="report-text ms-3">
-                  <h3 className="report-heading">RECOMMENDATION</h3>
+                  <h3 className="report-heading">REPORT SUMMARY</h3>
                   <p className="report-desc">
-                    Data-Driven Waste Management System This project proposes
-                    the implementation of a sustainable, data-driven waste
-                    management. Data-Driven Waste Management System This project
-                    proposes the implementation of a sustainable, data-driven
-                    waste management. Data-Driven Waste Management System This
-                    project proposes the implementation of a sustainable,
-                    data-driven waste management.
+                    The campus waste management survey analyzed 16 bins across
+                    various areas, tallying a total capacity of 710 Ltr and an
+                    average capacity of 44.4 Ltr/bin. The capacity is highly
+                    concentrated in the Ground and Bank Area, which alone holds
+                    280 Ltr due to the presence of a single 200 Ltr Large Green
+                    Wheeled Bin. Conversely, high-traffic food areas like the
+                    Canteen and Nescafe primarily rely on small 30 Ltr and 50
+                    Ltr swing-lid bins.
                   </p>
                 </div>
               </div>
@@ -163,15 +164,16 @@ function Campus() {
 
                 {/* Text Section */}
                 <div className="report-text ms-3">
-                  <h3 className="report-heading">RECOMMENDATION</h3>
+                  <h3 className="report-heading">KEY INSIGHT</h3>
                   <p className="report-desc">
-                    Data-Driven Waste Management System This project proposes
-                    the implementation of a sustainable, data-driven waste
-                    management. Data-Driven Waste Management System This project
-                    proposes the implementation of a sustainable, data-driven
-                    waste management. Data-Driven Waste Management System This
-                    project proposes the implementation of a sustainable,
-                    data-driven waste management.
+                    The analysis identified a Centralized Risk, where campus
+                    capacity is heavily reliant on the single 200 Ltr bin,
+                    leaving the remaining small bins vulnerable to overflow. A
+                    Critical Data Gap exists because the necessary Frequency
+                    data is missing, making it impossible to verify the
+                    sufficiency of the small-bin capacity. This creates a high
+                    Overflow Risk for the small bins in high-traffic food areas
+                    like the Canteen during peak times.
                   </p>
                 </div>
               </div>
@@ -189,12 +191,13 @@ function Campus() {
                 <div className="report-text ms-3">
                   <h3 className="report-heading">RECOMMENDATION</h3>
                   <p className="report-desc">
-                    Lorem ipsum dolor sit 10n3CMZaOMzrpSG9PNQYS1Ds2x0z3CDlIyamet
-                    consectetur adipisicing elit. Molestias beatae harum ab
-                    iusto nostrum nesciunt totam quae minus doloribus cumque
-                    enim laborum nihil fugit magnam animi quibusdam, ipsum,
-                    error ipsa? Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit
+                    To address these issues, the first recommendation is to
+                    immediately mandate and log collection frequency for all
+                    campus bins to establish a service data baseline. The
+                    university should increase the capacity of bins in
+                    high-traffic food areas (Canteen, Nescafe) to prevent
+                    overflow during peak hours. Authorities should also consider
+                    replacing multiple small bins in areas like Applied Sciences.
                   </p>
                 </div>
               </div>
@@ -210,16 +213,16 @@ function Campus() {
 
                 {/* Text Section */}
                 <div className="report-text ms-3">
-                  <h1 className="report-heading">RECOMMENDATION</h1>
-                  <p className="report-desc">
-                    Data-Driven Waste Management System This project proposes
-                    the implementation of a sustainable, data-driven waste
-                    management. DatFKLDSLFKA;Lgement System This project
-                    proposes the implementation of a sustainable, data-driven
-                    waste management. DJDHJKAKJDKLJLKA This project proposes the
-                    implementation of a sustainable, data-driven waste
-                    management.
-                  </p>
+                  <h1 className="report-heading">FOR DETAILED ANALYSIS</h1>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <a
+                      className="mt-4"
+                      href="https://colab.research.google.com/drive/1Cou3MJbtZ--gLHIiqgQdst2OGLvTV8p2?usp=sharing"
+                    >
+                      https://colab.research.google.com/drive/<br></br>
+                      1Cou3MJbtZ--gLHIiqgQdst2OGLvTV8p2?usp=sharing
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

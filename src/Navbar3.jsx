@@ -79,14 +79,7 @@ const Navbar3 = () => {
             Types
           </button>
         </li>
-        <li>
-          <button
-            className={activeSection === "flowchart" ? "active" : ""}
-            onClick={() => scrollToSection("flowchart")}
-          >
-           Flowchart
-          </button>
-        </li>
+      
         <li>
           <button
             className={activeSection === "diff" ? "active" : ""}
@@ -101,6 +94,14 @@ const Navbar3 = () => {
             onClick={() => scrollToSection("table")}
           >
            Table
+          </button>
+        </li>
+        <li>
+          <button
+            className={activeSection === "report" ? "active" : ""}
+            onClick={() => scrollToSection("report")}
+          >
+           Report
           </button>
         </li>
       </ul>
