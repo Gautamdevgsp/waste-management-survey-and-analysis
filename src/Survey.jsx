@@ -98,12 +98,16 @@ function Survey() {
               alt="number"
             ></img>
             <p>
-              Data-Driven Waste Management System This project proposes the
-              implementation of a sustainable, data-driven waste management
-              system for Sardar Beant Singh State University, Gurdaspur. The
-              current waste generation on campus, with its complex mix from
-              diverse zones including hostels, canteens, and academic
-              departments, poses a significant challenge.
+              Our proposal for establishing a Material Recovery Facility (MRF)
+              is built on a comprehensive analysis of our university’s current
+              waste ecosystem, backed by detailed surveys conducted across the
+              campus. By studying waste generation patterns, student and staff
+              awareness levels, and the inefficiencies in existing disposal
+              methods, we identified strong opportunities for improvement. This
+              project transforms raw data into meaningful insights, enabling us
+              to design a system that is not only environmentally responsible
+              but also perfectly aligned with the needs and behaviour of our
+              campus community.
             </p>
           </div>
           <div class="mrf-image">
@@ -133,30 +137,30 @@ function Survey() {
               alt="number"
             ></img>
             <p>
-              The Material Recovery Facility (MRF) serves to process and
-              segregate the university's complex waste streams , ensuring the
-              maximum recovery of recyclable and biodegradable materials. Its
-              primary functions include turning waste into a valuable resource
-              by facilitating effective recycling, which helps minimize the
-              amount of waste sent to landfills. Finally, the MRF acts as the
-              scalable, physical infrastructure designed to handle the specific
-              waste types and volumes identified by the project's data analysis
+              With the introduction of a dedicated MRF, our university can take
+              a major step toward building a cleaner, greener, and more
+              sustainable environment. The proposed system focuses on efficient
+              segregation, recovery, and recycling of materials, reducing the
+              strain on landfills and setting a precedent for responsible waste
+              management. Rooted in innovation and guided by sustainability, our
+              model aims to convert waste into valuable resources while
+              inspiring students, faculty, and future institutions to adopt
+              long-term eco-friendly practices.
             </p>
           </div>
         </div>
         <div className="d-flex justify-content-center align-items-center">
-        <button
-          className="mrf-button mt-4 mb-4 p-3"
-          onClick={() => {
-            navigate("/mrf");
-             window.scrollTo(0, 0);
-          }}
-        >
-          Click here for detailed Summary
-        </button>
+          <button
+            className="mrf-button mt-4 mb-4 p-3"
+            onClick={() => {
+              navigate("/mrf");
+              window.scrollTo(0, 0);
+            }}
+          >
+            Click here for detailed Summary
+          </button>
         </div>
       </div>
-      
     </>
   );
 }

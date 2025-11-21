@@ -91,9 +91,17 @@
   filter: brightness(1.02);
 }
 .map-text {
-  height: 10px;
-  width: 500px;
-  background-color: #144c14;
+    height: 440px;
+    width: auto;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+.map-text p{
+    color:  #26852c;
+    margin-top: 30px;
+}
+.map-text h1{
+       color: #144c14;
 }
 
 .vaddi {
