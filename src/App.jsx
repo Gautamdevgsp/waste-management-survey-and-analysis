@@ -7,7 +7,7 @@ import Hostel from './Hostel';
 import Dept from './Dept';
 import Campus from './Campus';
 import Res from './Res';
-import Mrf from './mrf';
+import Mrf from './Mrf';
  
 
 function App() {
