@@ -10,7 +10,7 @@ function Res() {
             className="upper d-flex align-items-center"
             style={{ height: "130px" }}
           >
-            <div className="d-flex flex-column align-items-center mt-3">
+            <div className="d-flex flex-column align-items-center mt-1">
               <img
                 src="./New Project 26 [D4CFFD9].png"
                 alt="Waste Management"

@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 function Home() {
   return (
     <>
-      <section id="heading">
+      {/* <section id="heading">
         <div
           className="upper d-flex align-items-center"
           style={{ height: "130px" }}
@@ -20,8 +20,31 @@ function Home() {
             />
             <p className="fs-4">SBSSU</p>
           </div>
-          {/* <p className='ms-3 flex-grow-1 text-center'>Waste  Management  Survey </p> */}
+      
           <div className="ms-2 flex-grow-1 text-center">
+            <p className="head mb-0">Waste Management Survey</p>
+            <p className="foot mb-3">
+              Analyzing and Improving Campus Sustainability
+            </p>
+          </div>
+        </div>
+      </section> */}
+
+      <section id="heading">
+        <div
+          className="upper d-flex align-items-center justify-content-between flex-wrap"
+          style={{ height: "130px" }}
+        >
+          <div className="d-flex flex-column align-items-center mt-1 mb-3 mb-md-0">
+            <img
+              src="./New Project 26 [D4CFFD9].png"
+              alt="Waste Management"
+              style={{ height: "90px", flexShrink: 0 }}
+            />
+            <p className="fs-4">SBSSU</p>
+          </div>
+
+          <div className="ms-2 flex-grow-1 text-center mt-1  mb-2 mt-md-0">
             <p className="head mb-0">Waste Management Survey</p>
             <p className="foot mb-3">
               Analyzing and Improving Campus Sustainability
@@ -45,19 +68,22 @@ function Home() {
         <hr className="w-75" />
       </div>
 
-      <div className="map-box ms-5 me-5 rounded">
-        <div className="map-text me-5 ms-5">
-          <h1>Sardar Beant Singh State University,Gurdaspur</h1>
-           <p> Sardar Beant Singh State University, formerly known as Beant College
-          of Engineering and Technology, is a university located in Gurdaspur,
-          Punjab, India. SBSSU imparts education in various Science and
-          Engineering disciplines.<br></br>
-          Address: National Highway 15, Gurdaspur Pathankot Road, Bariar, Gurdaspur, Punjab 143530
+      <div className="map-box rounded">
+        <div className="map-text">
+          <h1>Sardar Beant Singh State University, Gurdaspur</h1>
+          <p>
+            Sardar Beant Singh State University, formerly known as Beant College
+            of Engineering and Technology, is a university located in Gurdaspur,
+            Punjab, India. SBSSU imparts education in various Science and
+            Engineering disciplines.
+            <br />
+            Address: National Highway 15, Gurdaspur Pathankot Road, Bariar,
+            Gurdaspur, Punjab 143530
           </p>
         </div>
 
-        <div className="">
-          <iframe className="map" src="/map.html" title="Colab Chart"></iframe>
+        <div className="map-container">
+          <iframe className="map" src="/map.html" title="map"></iframe>
         </div>
       </div>
 

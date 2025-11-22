@@ -37,7 +37,7 @@ function Survey() {
           <div className="row justify-content-center g-4">
             <div className="col-12 col-sm-6 col-md-5 d-flex justify-content-center">
               <div
-                className="survey-box bg-img-residential  d-flex align-items-end justify-content-center rounded me-5"
+                className="survey-box bg-img-residential  d-flex align-items-end justify-content-center rounded"
                 onClick={() => handleClickHos("Hostel")}
               >
                 <div className="bottom-text bg-white text-center py-2 w-100 ">
@@ -59,7 +59,7 @@ function Survey() {
 
             <div className="col-12 col-sm-6 col-md-5 d-flex justify-content-center">
               <div
-                className="survey-box bg-img-campus  d-flex align-items-end justify-content-center rounded mt-5 me-5 mb-4"
+                className="survey-box bg-img-campus  d-flex align-items-end justify-content-center rounded mt-5 mb-4"
                 onClick={() => handleClickCampus("Campus")}
               >
                 <div className="bottom-text bg-white text-center py-2 w-100 ">
@@ -83,16 +83,16 @@ function Survey() {
       </div>
       <hr className="w-100 my-5 bg-dark" style={{ height: "2px" }} />
 
-      <div className="vaddi ms-5 me-5 rounded">
-        <div className="row d-flex justify-content-center  ">
-          <h1 className="surveyy d-flex justify-content-center">
+      <div class="vaddi ms-5 me-5 rounded">
+        <div class="row d-flex justify-content-center">
+          <h1 class="surveyy d-flex justify-content-center">
             MRF PROPOSAL SUMMARY
           </h1>
-          <hr className="w-75" />
+          <hr class="w-75" />
         </div>
 
-        <div class="mrf">
-          <div class="mrf-text">
+        <div class="row mrf align-items-center">
+          <div class="col-lg-6 col-md-12 d-flex mrf-text">
             <img
               src="https://cdn-icons-png.flaticon.com/128/9494/9494567.png"
               alt="number"
@@ -110,28 +110,29 @@ function Survey() {
               campus community.
             </p>
           </div>
-          <div class="mrf-image">
+
+          <div class="col-lg-6 col-md-12 mrf-image">
             <img
-              className="rounded"
+              class="rounded"
               src="https://www.rubicon.com/wp-content/uploads/2021/06/materials-recovery-facility.jpg"
-              alt="MRF Tyre"
+              alt="MRF Image"
             ></img>
           </div>
         </div>
 
-        <div className="d-flex justify-content-center">
-          <hr className="w-75" />
+        <div class="d-flex justify-content-center">
+          <hr class="w-75" />
         </div>
 
-        <div class="mrf1">
-          <div class="mrf1-image">
+        <div class="row mrf1 align-items-center">
+          <div class="col-lg-6 col-md-12 mrf1-image">
             <img
               src="https://www.re-group.com/wp-content/uploads/resized/2021/11/australias-newest-mrf-is-up-and-running-1200x0-c-default.jpg"
-              alt="MRF Tyre"
+              alt="MRF Image"
             ></img>
           </div>
 
-          <div class="mrf1-text">
+          <div class="col-lg-6 col-md-12 d-flex mrf1-text">
             <img
               src="https://cdn-icons-png.flaticon.com/128/9494/9494600.png"
               alt="number"
@@ -149,14 +150,13 @@ function Survey() {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-center align-items-center">
-          <button
-            className="mrf-button mt-4 mb-4 p-3"
-            onClick={() => {
+
+        <div class="d-flex justify-content-center align-items-center">
+          <button class="mrf-button mt-4 mb-4 p-3"
+              onClick={() => {
               navigate("/mrf");
               window.scrollTo(0, 0);
-            }}
-          >
+            }}>
             Click here for detailed Summary
           </button>
         </div>

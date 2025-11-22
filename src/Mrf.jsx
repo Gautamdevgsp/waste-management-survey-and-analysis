@@ -10,7 +10,7 @@ function Mrf() {
           className="upper d-flex align-items-center"
           style={{ height: "130px" }}
         >
-          <div className="d-flex flex-column align-items-center mt-3">
+          <div className="d-flex flex-column align-items-center mt-1">
             <img
               src="./New Project 26 [D4CFFD9].png"
               alt="Waste Management"
@@ -29,16 +29,16 @@ function Mrf() {
       <Navbar3 />
 
       <section id="what">
-        <div className="detail-box mt-5 ms-5 me-5 rounded">
-          <div className="mrf1">
-            <div className="mrf1-image">
+        <div className="detail-box mt-5 rounded">
+          <div className="mref">
+            <div className="mref-image">
               <img
                 src="https://www.resourcerecoverygroup.com.au/Profiles/rrg/Assets/ClientData/Images/Page-content/materials-recovery-facility.jpg"
                  alt="MRF Tyre"
               ></img>
             </div>
 
-            <div className="mrf1-text">
+            <div className="mref-text">
               <h1>♻️ What Is an MRF Plant?</h1>
               <p>
                 An MRF (Materials Recovery Facility) is a specialized facility
@@ -54,152 +54,7 @@ function Mrf() {
             </div>
           </div>
 
-          <div className="row d-flex justify-content-center  ">
-            <hr className="w-75" />
           </div>
-
-          <h1 className="how mt-3"> 🏭 How an MRF Works (Step by Step)</h1>
-
-          <div className="mrf mt-5 mb-3">
-            <div className="mrf-text">
-              <h1 className="fs-2">
-                1. Incoming Waste Delivery (“Tipping Floor”)
-              </h1>
-              <p>
-                Data-Driven Waste Management System This project proposes the
-                implementation of a sustainable, data-driven waste management
-                system for Sardar Beant Singh State University, Gurdaspur. The
-                current waste generation on campus, with its complex mix from
-                diverse zones including hostels, canteens, and academic
-                departments, poses a significant challenge.
-              </p>
-            </div>
-            <div className="mrf-image">
-              <img
-                className="rounded"
-                src="https://aktid.com/wp-content/uploads/2025/06/dm-valor-pole-72-le-mans-deux-separateurs-balistiques-1200x850.jpg"
-                alt="MRF Tyre"
-              ></img>
-            </div>
-          </div>
-
-          <div className="row d-flex justify-content-center  ">
-            <hr className="w-50" />
-          </div>
-
-          <div className="mrf1 mt-1 mb-2">
-            <div className="mrf1-image">
-              <img
-                src="https://www.rocklandgreen.com/assets/Facilities/IMG_2795__ResizedImageWzYwMCw0NTBd.jpeg"
-                alt="MRF Tyre"
-              ></img>
-            </div>
-
-            <div className="mrf1-text">
-              <h1 className="fs-2"> 2. Pre-Sorting (Manual or Mechanical) </h1>
-              <p>
-                Workers or machines remove: <br></br>• Hazardous items<br></br>•
-                Non-recyclables <br></br>
-                •Large tanglers (hoses, wires, textiles) <br></br>• Oversized
-                cardboard <br></br>
-                This protects the machinery.
-              </p>
-            </div>
-          </div>
-
-          <div className="row d-flex justify-content-center  ">
-            <hr className="w-50" />
-          </div>
-
-          <div className="mrf mt-1 mb-2">
-            <div className="mrf-text">
-              <h1 className="fs-2">3. Primary Screening</h1>
-              <p>
-                Large rotating trommel screens or disc screens separate
-                materials by size: <br></br>• Large flat items (cardboard){" "}
-                <br></br>• Small pieces (broken glass, grit)
-              </p>
-            </div>
-            <div className="mrf-image">
-              <img
-                className="rounded"
-                src="https://maanenviro.com/wp-content/uploads/2024/02/Product-Material-Recovery-Facility-MRF.jpeg"
-                alt="MRF Tyre"
-              ></img>
-            </div>
-          </div>
-
-          <div className="row d-flex justify-content-center  ">
-            <hr className="w-50" />
-          </div>
-
-          <div className="mrf1 mt-1 mb-2">
-            <div className="mrf1-image">
-              <img
-                src="https://wikiwaste.org.uk/images/b/b9/021_Mixed-Waste-Processing-1200x797.jpg"
-                alt="MRF Tyre"
-              ></img>
-            </div>
-
-            <div className="mrf1-text">
-              <h1 className="fs-2">4. Material Separation </h1>
-              <p>
-                Different mechanical systems separate materials:<br></br> * Air
-                classifiers: Separate light materials (paper, film plastics)
-                from heavy ones (glass, metals). <br></br>* Magnetic separators:
-                Pull out ferrous metals (steel cans). <br></br>* Eddy current
-                separators: Repel non-ferrous metals (aluminum cans). <br></br>*
-                Optical sorters: Use lasers/cameras to identify plastics (PET,
-                HDPE, PP, etc.) and squirt air to separate them. <br></br>*
-                Glass cleanup systems: Crush, screen, and separate glass into
-                clean cullet.
-              </p>
-            </div>
-          </div>
-
-          <div className="row d-flex justify-content-center  ">
-            <hr className="w-50" />
-          </div>
-
-          <div className="mrf mt-1 mb-2">
-            <div className="mrf-text">
-              <h1 className="fs-2">5. Quality Control Stations</h1>
-              <p>
-                Humans or robots inspect sorted streams to remove contamination.
-              </p>
-            </div>
-            <div className="mrf-image">
-              <img
-                className="rounded"
-                src="https://recycleye.com/wp-content/uploads/2023/04/Lab.png"
-                alt="MRF Tyre"
-              ></img>
-            </div>
-          </div>
-
-          <div className="row d-flex justify-content-center  ">
-            <hr className="w-50" />
-          </div>
-
-          <div className="mrf1 mt-1 mb-2">
-            <div className="mrf1-image">
-              <img
-                src="https://averda.imgix.net/assets/uploads/MRF.darker.jpg?fit=fill&w=1920&quality=80&position=center-center"
-                alt="MRF Tyre"
-              ></img>
-            </div>
-
-            <div className="mrf1-text">
-              <h1 className="fs-2">6. Baling and Storage </h1>
-              <p>
-                Clean, sorted materials are compacted into bales: <br></br>•
-                OCC(cardboard)<br></br>• Mixed paper<br></br>• PET bottles{" "}
-                <br></br>• HDPE containers <br></br>• Aluminum <br></br>• Steel{" "}
-                <br></br>• Glass These bales are sold to recycling mills.
-              </p>
-            </div>
-          </div>
-        </div>
       </section>
 
       <hr className="w-100 my-5 bg-dark" style={{ height: "2px" }} />

@@ -1,7 +1,4 @@
-.detail-box {
-  background-image: linear-gradient(to bottom, rgb(246, 246, 237), #ffffff);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+
 .flowchart-box {
   background-image: url("https://ars.els-cdn.com/content/image/1-s2.0-S2666821124000073-gr3.jpg");
   background-size: cover; /* makes the image cover fully */
@@ -62,20 +59,49 @@
   color: #28672c;
   padding-top: 10px;
 }
+
+
 .type-container {
   background-color: #eaeaea;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  width: 400px;
-  height: 405px;
+  width: 100%;
+  max-width: 400px;
+
+  /* REMOVE FIXED HEIGHT – very important */
+  height: auto;
+
+  /* give inside space */
+  padding: 20px;
+
+  /* allow long text to wrap */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  border-radius: 12px;
 }
+
 .type-container h4 {
   color: #28672c;
+  font-size: 22px;
+  font-weight: 600;
 }
+
 .type-container p {
-  font-size: 18px;
+  font-size: 17px;
   text-align: left;
   color: #26852c;
+  line-height: 1.35;
 }
+
+/* Make boxes fully responsive */
+@media (max-width: 576px) {
+  .type-container {
+    max-width: 100%;
+    padding: 16px;
+  }
+}
+
+
 .capacity-table-container {
   background-image: linear-gradient(to bottom, rgb(246, 246, 237), #ffffff);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -255,4 +281,158 @@
 .navbar2 button.active::after,
 .navbar2 button:hover::after {
   width: 100%;
+}
+/* =========================
+     RESPONSIVE NAVBAR2
+   ========================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .navbar2 ul {
+    gap: 40px;
+    margin-left: 80px; /* reduce margin */
+  }
+
+  .navbar2 button {
+    font-size: 1rem;
+    padding: 10px 5px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar2 {
+    justify-content: center !important;
+  }
+
+  .navbar2 ul {
+    margin-left: 0 !important;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+  }
+
+  .navbar2 button {
+    font-size: 0.95rem;
+    padding: 8px 4px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .navbar2 ul {
+    gap: 18px;
+  }
+
+  .navbar2 button {
+    font-size: 0.85rem;
+    padding: 6px 4px;
+  }
+
+  .navbar2 button::after {
+    height: 2px; /* thinner underline for small screens */
+  }
+}
+/* Parent Box */
+.detail-box {
+  background: #e7f5e7;
+  padding: 40px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, rgb(246, 246, 237), #ffffff);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Side-by-side container */
+.mref {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+/* TEXT SECTION */
+.mref-text {
+  flex: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Larger heading */
+.mref-text h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #144c14;
+  margin-bottom: 16px;
+}
+
+/* Slightly larger text */
+.mref-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1e741e;
+  margin: 0;
+}
+
+/* IMAGE RIGHT SIDE */
+.mref-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.mref-image img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+/* Prevent parent overflow */
+#what {
+  overflow-x: hidden;
+}
+
+/* RESPONSIVE FIXES */
+
+@media (max-width: 992px) {
+  .mref {
+    flex-wrap: wrap;          /* stack them */
+    text-align: center;
+  }
+
+  .mref-text, .mref-image {
+    flex: 1 1 100%;
+  }
+
+  .mref-text h1 {
+    font-size: 28px;
+  }
+
+  .mref-text p {
+    font-size: 16px;
+  }
+
+  .mref-image img {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .detail-box {
+    padding: 20px;
+  }
+
+  .mref-text h1 {
+    font-size: 24px;
+  }
+
+  .mref-text p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
 }

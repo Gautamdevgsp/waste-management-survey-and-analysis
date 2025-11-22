@@ -12,7 +12,7 @@ function Hostel() {
           className="upper d-flex align-items-center"
           style={{ height: "130px" }}
         >
-          <div className="d-flex flex-column align-items-center mt-3">
+          <div className="d-flex flex-column align-items-center mt-1">
             <img
               src="./New Project 26 [D4CFFD9].png"
               alt="Waste Management"
@@ -215,13 +215,13 @@ function Hostel() {
               <div className="report-text ms-3">
                 <h1 className="report-heading">FOR DETAILED ANALYSIS</h1>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a
+                    <div className="report-link-container"> <a
                     className="mt-4"
                     href="https://colab.research.google.com/drive/1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing"
                   >
-                    https://colab.research.google.com/drive/<br></br>
-                    1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing
-                  </a>
+                    https://colab.research.google.com/drive/
+                    1AdGL85msPQCV2CLOk256VVScwLtEhTiY?usp=sharing </a></div>
+                  
                 </div>
               </div>
             </div>
