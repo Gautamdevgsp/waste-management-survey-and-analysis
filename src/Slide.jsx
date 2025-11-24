@@ -58,7 +58,7 @@ function Slide() {
           
           <Carousel.Caption>
             <h3 style={{ zIndex: 2, position: 'relative' }}>Our Mission</h3>
-            <p style={{ zIndex: 2, position: 'relative' }}>To promote sustainable and efficient waste management on campus.</p>
+            <p style={{ zIndex: 2, position: 'relative' }}>To create a cleaner, greener campus by turning organic waste into valuable compost through sustainable practices.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -78,7 +78,7 @@ function Slide() {
           
           <Carousel.Caption>
             <h3 style={{ zIndex: 2, position: 'relative' }}>Our Process</h3>
-            <p style={{ zIndex: 2, position: 'relative' }}>Survey-based data analyzed and displayed using a web dashboard.</p>
+            <p style={{ zIndex: 2, position: 'relative' }}>Data-driven waste assessment combined with surveys, monitoring, and practical composting solutions.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -98,7 +98,7 @@ function Slide() {
           
           <Carousel.Caption>
             <h3 style={{ zIndex: 2, position: 'relative' }}>Our Product</h3>
-            <p style={{ zIndex: 2, position: 'relative' }}>A dashboard to monitor, analyze, and visualize campus waste data</p>
+            <p style={{ zIndex: 2, position: 'relative' }}>A Web based dashboard that explores our survey results, analysis and projections through interactive charts and diagrams—plus access to the complete Feasibility Study for a Sustainable Waste Management System</p>
           </Carousel.Caption>
         </Carousel.Item>
 
