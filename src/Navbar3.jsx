@@ -73,29 +73,14 @@ const Navbar3 = () => {
             What
           </button>
         </li>
-        <li>
-          <button
-            className={activeSection === "types" ? "active" : ""}
-            onClick={() => scrollToSection("types")}
-          >
-            Types
-          </button>
-        </li>
-      
-        <li>
-          <button
-            className={activeSection === "diff" ? "active" : ""}
-            onClick={() => scrollToSection("diff")}
-          >
-           Difference
-          </button>
-        </li>
+       
+
         <li>
           <button
             className={activeSection === "table" ? "active" : ""}
             onClick={() => scrollToSection("table")}
           >
-           Table
+           Tables
           </button>
         </li>
         <li>

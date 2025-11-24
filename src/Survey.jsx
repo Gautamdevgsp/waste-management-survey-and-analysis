@@ -86,7 +86,7 @@ function Survey() {
       <div class="vaddi ms-5 me-5 rounded">
         <div class="row d-flex justify-content-center">
           <h1 class="surveyy d-flex justify-content-center">
-            MRF PROPOSAL SUMMARY
+         PROPOSAL SUMMARY
           </h1>
           <hr class="w-75" />
         </div>
@@ -98,16 +98,13 @@ function Survey() {
               alt="number"
             ></img>
             <p>
-              Our proposal for establishing a Material Recovery Facility (MRF)
-              is built on a comprehensive analysis of our university’s current
-              waste ecosystem, backed by detailed surveys conducted across the
-              campus. By studying waste generation patterns, student and staff
-              awareness levels, and the inefficiencies in existing disposal
-              methods, we identified strong opportunities for improvement. This
-              project transforms raw data into meaningful insights, enabling us
-              to design a system that is not only environmentally responsible
-              but also perfectly aligned with the needs and behaviour of our
-              campus community.
+              We started by asking the right questions. How much waste does our
+              campus produce? What types are most common? How aware are students
+              and staff about disposal practices? Our surveys and observations
+              revealed a key insight: while organic waste is plentiful,
+              recyclable dry waste is too low to support a full-scale Material
+              Recovery Facility. These findings form the foundation of a waste
+              solution that truly fits our campus.
             </p>
           </div>
 
@@ -127,8 +124,8 @@ function Survey() {
         <div class="row mrf1 align-items-center">
           <div class="col-lg-6 col-md-12 mrf1-image">
             <img
-              src="https://www.re-group.com/wp-content/uploads/resized/2021/11/australias-newest-mrf-is-up-and-running-1200x0-c-default.jpg"
-              alt="MRF Image"
+             src="https://grangettos.com/cdn/shop/articles/shutterstock_1912480612_1600x.jpg?v=1619049100"
+             alt="MRF Image"
             ></img>
           </div>
 
@@ -138,25 +135,26 @@ function Survey() {
               alt="number"
             ></img>
             <p>
-              With the introduction of a dedicated MRF, our university can take
-              a major step toward building a cleaner, greener, and more
-              sustainable environment. The proposed system focuses on efficient
-              segregation, recovery, and recycling of materials, reducing the
-              strain on landfills and setting a precedent for responsible waste
-              management. Rooted in innovation and guided by sustainability, our
-              model aims to convert waste into valuable resources while
-              inspiring students, faculty, and future institutions to adopt
-              long-term eco-friendly practices.
+              The answer is simple, sustainable, and practical: an aerobic
+              composting pit system. It turns daily organic waste from
+              residences, hostels, and classrooms into rich compost for campus
+              gardens. Low-cost, easy to maintain, and scalable, this system not
+              only manages waste responsibly but also invites active
+              participation from the entire campus community. Together, we can
+              create a cleaner, greener, and more sustainable campus—one pit at
+              a time.
             </p>
           </div>
         </div>
 
         <div class="d-flex justify-content-center align-items-center">
-          <button class="mrf-button mt-4 mb-4 p-3"
-              onClick={() => {
+          <button
+            class="mrf-button mt-4 mb-4 p-3"
+            onClick={() => {
               navigate("/mrf");
               window.scrollTo(0, 0);
-            }}>
+            }}
+          >
             Click here for detailed Summary
           </button>
         </div>
